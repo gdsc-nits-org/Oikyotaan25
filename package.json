@@ -5,6 +5,10 @@
 	"type": "module",
 	"scripts": {
 		"build": "next build",
+		"preinstall": "npx only-allow pnpm",
+		"lint": "biome lint",
+		"lint:fix": "biome lint --fix",
+		"format:write": "biome format --write",
 		"check": "biome check .",
 		"check:unsafe": "biome check --write --unsafe .",
 		"check:write": "biome check --write .",
@@ -12,8 +16,7 @@
 		"preview": "next build && next start",
 		"start": "next start",
 		"typecheck": "tsc --noEmit",
-		"prepare": "husky",
-		"preinstall": "npx only-allow pnpm"
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"@t3-oss/env-nextjs": "^0.12.0",
