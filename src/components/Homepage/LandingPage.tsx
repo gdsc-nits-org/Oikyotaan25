@@ -10,9 +10,9 @@ export default function LandingPage() {
     return (
         <div className="relative w-full flex flex-col  items-center overflow-hidden h-screen bg-gradient-to-b from-[#6ADADA] via-[#FEE6BA] to-[#326BFB]">
 
-            <div className="water-waves absolute w-full h-full ">
+            <div className="water-waves absolute bottom-[20vh] w-full  bg-red-900">
             <motion.div
-                className="absolute z-10  -bottom-[5vh] left-[5vw]  w-full"
+                className="absolute z-10  -top-[5vh] left-[5vw]  w-full"
                 animate={{
                     x:[-10 ,10],
                     y: [-5, 0],
@@ -31,7 +31,7 @@ export default function LandingPage() {
                 <Wave />
             </motion.div>
             <motion.div
-                className="absolute z-20  -bottom-[5vh] -left-[30vw]  w-full "
+                className="absolute z-20  -top-[5vh] -left-[30vw]  w-full "
                 animate={{
                     x:[-10 ,10],
                     y: [-5, 0],
@@ -50,7 +50,7 @@ export default function LandingPage() {
                 <Wave />
             </motion.div>
             <motion.div
-                className="absolute z-40  -bottom-[5vh] -left-[5vw] w-full"
+                className="absolute z-40  -top-[5vh] -left-[5vw] w-full"
                 animate={{
                     x:[10,-10],
                     y: [-5,  -5],
@@ -69,7 +69,7 @@ export default function LandingPage() {
                 <Wave />
             </motion.div>
             <motion.div
-                className="absolute z-30 -bottom-[5vh] left-[10vw]  w-full"
+                className="absolute z-30 -top-[5vh] left-[10vw]  w-full"
                 animate={{
                     x:[10,-10],
                     y: [-5,  -5],

@@ -5,7 +5,7 @@ export function Bridge({ className }: BridgeProps) {
     return (
         <div className={className}>
           <svg preserveAspectRatio="xMidYMid meet" className="w-full h-full" viewBox="0 0 1920 790" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-<rect x="-27" width="1975" height="790" fill="url(#pattern0_758_16495)" fill-opacity="0.4"/>
+<rect x="-27" width="1975" height="790" fill="url(#pattern0_758_16495)" fillOpacity="0.4"/>
 <defs>
 <pattern id="pattern0_758_16495" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlinkHref="#image0_758_16495" transform="scale(0.00126582 0.00316456)"/>
