@@ -1,89 +1,84 @@
+
 import { FaInstagram } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 export default function Footer() {
     return (
-        <div>
-
-            <div className="w-full h-[40px] absolute bottom-[64%] left-0 z-10 sm:bottom-[70%] sm:h-[60px]">
+        <div className="relative w-full bg-[#E3C7A1]">
+            <div className="z-10 h-[30px] w-full sm:h-[48px]">
                 <img
                     src="/assets/footer/pattern1.png"
                     alt="Pattern"
-                    className="w-full h-full object-cover"
+                    className="h-full w-full object-cover"
                 />
             </div>
-            <footer className="bg-[#7D2E2E] h-[65%] w-full text-white py-4 absolute bottom-0 overflow-hidden sm:h-[70%]">
-                <div
-                    className=" h-[92%]  w-full absolute bottom-[48px]"
-                    style={{
-                        backgroundImage: `url('/assets/footer/dhanbg.png')`,
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                    }}
-                >
+            <footer className="relative bottom-0 w-full overflow-hidden bg-[#7D2E2E] py-3 text-white sm:h-auto" style={{backgroundImage: "url('/assets/footer/dhanbg.png')", backgroundPosition: "center", backgroundSize: "cover"}}>
+                <div>
                     <div>
                         <img
                             src="/assets/footer/decor.png"
                             alt="Decorative"
-                            className="h-10 sm:h-15 sm:w-30"
+                            className="relative top-[-12px] left-0 h-8 sm:h-12 sm:w-24"
                         />
                         <img
                             src="/assets/footer/decor.png"
                             alt="Decorative"
-                            className="h-10 sm:h-15 sm:w-30 absolute right-0 top-0" 
+                            className="absolute top-0 right-0 h-8 sm:h-12 sm:w-24"
                         />
 
-                        <div className="flex flex-row items-start  justify-center w-full h-50 absolute top-[-15px] left-5">
+                        <div className="relative top-0 flex h-40 w-full flex-row items-start justify-center sm:top-[-40px]">
                             <img
                                 src="/assets/footer/oikyotaan.png"
                                 alt="Oikyotaan Logo"
-                                className="sm:h-50 sm:w-70 h-30 w-50 absolute top-10 sm:absolute sm:top-0 "  
+                                className="mt-3 h-24 w-40 sm:mt-0 sm:h-40 sm:w-56"
                             />
                         </div>
-                        <div className="absolute sm:right-[-10px] right-[-50] sm:top-20 top-40 sm:h-60 sm:w-80 h-[15%] w-[40%]">
-    <img
-        src="/assets/footer/boat.png"
-        alt="Boat"
-        className="h-full w-full object-contain"
-    />
-</div>
-<div className="absolute sm:left-[-9%] left-[-70] sm:top-60 top-100 sm:h-60 sm:w-80 h-[15%] w-[40%] rotate-y-190 rotate-x-10">
-    <img
-        src="/assets/footer/boat.png"
-        alt="Boat"
-        className="h-full w-full object-contain"
-    />
-</div>
-                        {/* <div className="absolute sm:left-[-235px] top-70 rotate-y-190 rotate-x-10 h-60 w-80"><img src="/assets/footer/boat.png"/></div> */}
 
-                        <div className="sm:h-[30%] sm:w-[70%] h-[40%] w-[70%] absolute sm:top-50  top-50 left-20  sm:left-60 flex flex-row items-center justify-between flex-wrap text-md sm:text-2xl font-normal text-[#F5E3C3]"> 
-                            <div className="sm:px-10 px-1 left-[20%] flex flex-row items-center justify-between text-xl sm:text-2xl">
-                                <IoLocationOutline className="mr-2" /> NIT Silchar, Assam, India
+                        <div className="absolute top-32 right-[-40px] h-[12%] w-[32%] sm:top-16 sm:right-[-8px] sm:h-48 sm:w-64">
+                            <img
+                                src="/assets/footer/boat.png"
+                                alt="Boat"
+                                className="h-full w-full object-contain"
+                            />
+                        </div>
+
+                        <div className="absolute top-80 left-[-56px] h-[12%] w-[32%] rotate-x-10 rotate-y-190 sm:top-72 sm:left-[-7%] sm:h-48 sm:w-64">
+                            <img
+                                src="/assets/footer/boat.png"
+                                alt="Boat"
+                                className="h-full w-full object-contain"
+                            />
+                        </div>
+
+                        <div className="relative top-[-30px] mx-auto mt-8 flex h-24 w-[60%] flex-row flex-wrap items-center justify-between font-normal text-[#F5E3C3] text-sm sm:relative sm:top-[-24px] sm:h-24 sm:w-[50%] sm:text-xl">
+                            <div className="flex flex-row items-center px-1 text-lg sm:px-8 sm:text-xl">
+                                <IoLocationOutline className="mr-2" /> NIT
+                                Silchar, Assam, India
                             </div>
-                            <div className="sm:px-10 px-1 flex flex-row items-center justify-between">
-                                PIN-788010
-                            </div>
-                            <div className="sm:px-10 px-1 flex flex-row items-center justify-between">
+                            <div className="px-1 sm:px-8">PIN-788010</div>
+                            <div className="flex flex-row items-center px-1 sm:px-8">
                                 <FaFacebookSquare className="mr-2" /> Facebook
                             </div>
-                            <div className="sm:px-10 px-1 flex flex-row items-center justify-between">
+                            <div className="flex flex-row items-center px-1 sm:px-8">
                                 <FaPhoneAlt className="mr-2" /> 03842-228479
                             </div>
-                            <div className="sm:px-10 px-1 flex flex-row items-center justify-between">
+                            <div className="flex flex-row items-center px-1 sm:px-8">
                                 <FaInstagram className="mr-2" /> Instagram
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="absolute sm:bottom-[15%] sm:left-[31%] bottom-[10%] left-[20%] h-[15%] w-[65%] sm:h-[12%] sm:w-[40%]">
-    <img
-        src="/assets/footer/gdgc.png"
-        alt="GDGC Logo"
-        className="h-full w-full object-contain"
-    />
-</div>
-                <div className="bg-[#1311119C] w-full h-[10%] text-[#F5E3C3] flex flex-row items-center justify-center sm:text-2xl font-thin absolute bottom-0">
+
+                <div className="mx-auto my-8 h-[12%] w-[55%] sm:my-12 sm:h-[10%] sm:w-[32%]">
+                    <img
+                        src="/assets/footer/gdgc.png"
+                        alt="GDGC Logo"
+                        className="h-full w-full object-contain"
+                    />
+                </div>
+
+                <div className="absolute bottom-0 flex h-[8%] w-full flex-row items-center justify-center bg-[#1311119C] font-thin text-[#F5E3C3] sm:text-xl">
                     All Rights Reserved ©Oikyotaan, NIT Silchar
                 </div>
             </footer>
