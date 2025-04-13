@@ -1,0 +1,167 @@
+@keyframes move1 {
+    0% {
+      transform: translate(0);
+    }
+
+    80% {
+      transform: translate(-40vw);
+    }
+
+    100% {
+      transform: translate(-36vw);
+    }
+  }
+  
+  @keyframes move2 {
+    0% {
+        transform: translate(0);
+    }
+
+    80% {
+        transform: translate(-30vw);
+    }
+
+    100% {
+        transform: translate(-27vw);
+    }
+  }
+  
+  @keyframes move3 {
+    0% {
+        transform: translate(0);
+    }
+
+    80% {
+        transform: translate(-20vw);
+    }
+
+    100% {
+        transform: translate(-18vw);
+    }
+  }
+  
+  @keyframes move4 {
+    0% {
+        transform: translate(0);
+    }
+
+    80% {
+        transform: translate(40vw);
+    }
+
+    100% {
+        transform: translate(36vw);
+    }
+  }
+  
+  @keyframes move5 {
+    0% {
+        transform: translate(0);
+    }
+
+    80% {
+        transform: translate(30vw);
+    }
+
+    100% {
+        transform: translate(27vw);
+    }
+  }
+  
+  @keyframes move6 {
+    0% {
+        transform: translate(0);
+    }
+
+    80% {
+        transform: translate(20vw);
+    }
+
+    100% {
+        transform: translate(18vw);
+    }
+  }
+
+  .ball1 {
+    animation: move1 2s ease forwards;
+  }
+
+  .ball2 {
+    animation: move2 2s ease forwards;
+  }
+
+  .ball3 {
+    animation: move3 2s ease forwards;
+  }
+  .ball4 {
+    animation: move4 2s ease forwards;
+  }
+  .ball5 {
+    animation: move5 2s ease forwards;
+  }
+  .ball6 {
+    animation: move6 2s ease forwards;
+  }
+
+// for moving ball animations for mobile view
+@media (width <= 48rem ) {
+  
+  @keyframes drop2 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(50px);
+    }
+  }
+
+  @keyframes drop3 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100px);
+    }
+  }
+
+  .drop-animate1 {
+    animation: drop1 2s ease forwards;
+  }
+
+  .drop-animate2 {
+    animation: drop2 2s ease forwards;
+  }
+
+  .drop-animate3 {
+    animation: drop3 2s ease forwards;
+  }
+}
+
+// Swiper slides changing animations 
+
+.custom-swiper {
+  // height: 60vh;
+
+  .swiper-slide {
+    opacity: 0;
+    transform: translateY(100vh);
+    transition: opacity 0.6s ease, transform 2s ease;
+
+    &.swiper-slide-active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    &.swiper-slide-prev{
+      opacity: 0;
+      transform: translateY(100vh);
+      transition: opacity 0.6 ease, transform 2s ease;
+    }
+
+    &.swiper-slide-next{
+      opacity: 0;
+      transform: translateY(100vh);
+      transition: opacity 0.6 ease, transform 2s ease;
+    }
+  }
+}

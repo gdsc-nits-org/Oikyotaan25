@@ -24,6 +24,7 @@
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
 		"sass": "^1.86.0",
+		"swiper": "^11.2.6",
 		"zod": "^3.24.2"
 	},
 	"devDependencies": {
