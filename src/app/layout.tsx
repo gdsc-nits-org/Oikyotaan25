@@ -1,5 +1,6 @@
 import "~/styles/globals.scss";
-import Navbar from "~/components/Navbar/Navbar";
+import NavbarDesktop from "~/components/Navbar/NavbarDesktop";
+import NavbarMobile from "~/components/Navbar/NavbarMobile";
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 
@@ -20,7 +21,8 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={`${geist.variable}`}>
 			<body>
-				<Navbar />
+				<NavbarDesktop/>
+				<NavbarMobile/>
 				{children}
 			</body>
 		</html>
