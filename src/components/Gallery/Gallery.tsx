@@ -1,6 +1,5 @@
 'use client';
 import { useState } from "react";
-import type { FC } from "react";
 import { GoTriangleLeft, GoTriangleRight } from "react-icons/go";
 import { useMediaQuery } from "react-responsive";
 
