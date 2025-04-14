@@ -1,6 +1,6 @@
 'use client';
-import NavbarDesktop from "~/components/Navbar/NavbarDesktop";
-import NavbarMobile from "~/components/Navbar/NavbarMobile";
+import NavbarDesktop from "./NavbarDesktop";
+import NavbarMobile from "./NavbarMobile";
 import { useMediaQuery } from "react-responsive";
 
 const Navbar = () => {
