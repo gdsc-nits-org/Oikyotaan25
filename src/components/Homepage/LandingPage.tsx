@@ -1,154 +1,73 @@
-"use client";
-import { Wave} from "./svgs/wave";
+"use client"
+import { Branch } from "./svgs/branch";
+import { Cloud1, Cloud1dark1, Cloud1dark2 } from "./svgs/cloud";
+import { RotatingThing } from "./svgs/rotatingthing";
+import { SponsorItem } from "./svgs/sponsorItem";
+import { BorderDesign } from "./svgs/topBorder";
 import { motion } from "framer-motion";
-import { Bridge } from "./svgs/howrahBridge";
-import { Cloud1, Cloud2 } from "./svgs/cloud";
-import { Crow } from "./svgs/crows";
-import { Boat1, Boat2, Boat3 } from "./svgs/boats";
 
 export default function LandingPage() {
+    const sponsorsList = ["abd","asf","Rsdfg0","aesgd","rage","cyberpunk"]
     return (
-        <div className="relative w-full flex flex-col  items-center overflow-hidden h-screen bg-gradient-to-b from-[#6ADADA] via-[#FEE6BA] to-[#326BFB]">
-
-            <div className="water-waves absolute bottom-[20vh] w-full  bg-red-900">
-            <motion.div
-                className="absolute z-10  -top-[5vh] left-[5vw]  w-full"
+        <div className="w-full overflow-x-hidden  relative h-full bg-[url('/images/bgImage.png')] bg-cover bg-center bg-color-[#7D2E2E]">
+            <div className="w-full bg-[#7D2E2E] h-[22px] "></div>
+            <BorderDesign className="w-full absolute -top-10 z-50"/>
+            <div className="relative top-Deco-images flex justify-center items-center  w-full object-contain h-[60vh]  overflow-y-hidden">
+                <motion.img src="/images/LeftKamal.png" alt="left-decoration" className=" w-[40%] absolute z-0 -top-5  left-0 -mt-[180px]"
                 animate={{
-                    x:[-10 ,10],
-                    y: [-5, 0],
-                    rotate: [-1, 1],
+                    rotate: [-4, 4],
                 }}
                 transition={{
                     type: "tween",
                     ease: "easeInOut",
-                    duration: 2,
+                    duration: 1.5,
                     repeat: Infinity,
                     repeatType: "mirror",
                     delay: 0.2,
                   }}
-                  
-            >
-                <Wave />
-            </motion.div>
-            <motion.div
-                className="absolute z-20  -top-[5vh] -left-[30vw]  w-full "
-                animate={{
-                    x:[-10 ,10],
-                    y: [-5, 0],
-                    rotate: [-1, 1],
-                }}
-                transition={{
-                    type: "tween",
-                    ease: "easeInOut",
-                    duration: 2,
-                    repeat: Infinity,
-                    repeatType: "mirror",
-                    delay: 0.2,
-                  }}
-                  
-            >
-                <Wave />
-            </motion.div>
-            <motion.div
-                className="absolute z-40  -top-[5vh] -left-[5vw] w-full"
-                animate={{
-                    x:[10,-10],
-                    y: [-5,  -5],
-                    rotate: [-1,  1],
-                }}
-                transition={{
-                    type: "tween",
-                    ease: "easeInOut",
-                    duration: 2,
-                    repeat: Infinity,
-                    repeatType: "mirror",
-                    delay: 0.5,
-                  }}
-                  
-            >
-                <Wave />
-            </motion.div>
-            <motion.div
-                className="absolute z-30 -top-[5vh] left-[10vw]  w-full"
-                animate={{
-                    x:[10,-10],
-                    y: [-5,  -5],
-                    rotate: [-1,  1],
-                }}
-                transition={{
-                    type: "tween",
-                    ease: "easeInOut",
-                    duration: 2,
-                    repeat: Infinity,
-                    repeatType: "mirror",
-                    delay: 0.5,
-                  }}
-                  
-            >
-                <Wave />
-            </motion.div>
+                ></motion.img>
+                <img src="/images/rakshabhandan.png" alt="center-decoration" className=" w-[43%]  object-contain ml-40"/>
+                <img src="/images/RightKamal.png" alt="right-decoration" className=" w-[20%] absolute z-0 top-0 right-0 "/>
             </div>
-            <div className="clouds&crows relative w-screen h-fit pt-14">
-                <div className="crows absolute top-0 py-32 left-0 w-full h-full">
-                    <Crow className="h-[100px]"/>
+            <div className=" flex  items-center">
+                <img src="/images/aartilady.png" alt="aarti" className="w-[30vw]  object-contain"/>
+                <div className="text-about-oikyotaan h-full w-full text-[#7D2E2E] text-justify text-[clamp(12px,_7vw,_24px)] ">
+                As spring gently nudges away winters slumber, bringing with it vibrant colours, a gentle warmth creeps in, as if welcoming the NoboBorsho. The air hums with anticipation, mirroring the excitement in our hearts. The gentle breeze sways the leaves welcoming the new year with better beginnings and fresh hopes. And amidst this effervescent atmosphere, our annual Bengali cultural extravaganza, Oikyotaan 24 pulsates with vibrant energy. A celebration of our rich heritage, a kaleidoscope of music, dance, art, and literature that unfolds against the backdrop of magic of spring.
                 </div>
-                <div className="up-cloud flex justify-between px-14 ">
-                    <Cloud2 className="  h-[18vh] z-20"/>
-                    <Cloud1 className="  h-[15vh] z-20"/>
-                </div>
-                <div className="down-cloud flex justify-between px-36 ">
-                    <Cloud1 className=" right-0 z-20 h-[14vh]"/> 
-                    <Cloud1 className=" right-0 z-20 h-[14vh]"/> 
-                </div>
+                <img src="/images/aartilady.png" alt="aarti" className="w-[30vw]  object-contain scale-x-[-1]"/>
             </div>
-            <div className="howrah-bridge -top-5 absolute z-10 ">
-            <Bridge className="h-screen"/>
+            <div className="brochure relative w-full flex flex-col justify-center items-center my-10">
+                  <div className="box w-[25vw] h-[12vh] text-yellow-500 border-4 flex justify-center items-center text-[clamp(12px,_10vw,_50px)] bg-[#7D2E2E]">Brochure</div>
+                  <div className="rakshabhandan w-full  flex justify-center items-center my-20">
+                    <div className="clouds-about ">
+                        <Cloud1 className="absolute top-10  right-10 z-[2]"/>
+                        <Cloud1dark1 className="absolute top-20  -right-30 z-0"/>
+                        <Cloud1dark2 className="absolute top-40 right-0 z-[1] "/>
+                    </div>
+                    <img src="/images/rakshabhandan.png" alt="center-decoration" className=" w-[43%]  object-contain ml-10"/>
+                  </div>
             </div>
-            <div className="boats absolute bottom-20 align-bottom bg-red-900 w-full flex justify-around">
-            <motion.div
-                className="absolute bottom-0 z-[15] left-[20vw] -translate-x-1/2"
-                animate={{
-                  rotate: [-5, 5, -5],
-                }}
-                transition={{
-                  duration: 3.5,
-                  delay: 0.5,
-                  ease: "easeInOut",
-                  repeat: Infinity,
-                  repeatType: "mirror",
-                }}
-            >
-                <Boat1 className="z-[15] bottom-0"/>
-            </motion.div>
-            <motion.div
-                className="absolute z-[35] bottom-0 left-[55vw] -translate-x-1/2"
-                animate={{
-                  rotate: [-5, 5, -5],
-                }}
-                transition={{
-                  duration: 5,
-                  ease: "easeInOut",
-                  repeat: Infinity,
-                  repeatType: "mirror",
-                }}
-            >
-                <Boat2 className="h-[60vh]"/>
-            </motion.div>
-            <motion.div
-                className="absolute bottom-1 left-[80vw] -translate-x-1/2"
-                animate={{
-                  rotate: [-5, 5, -5],
-                }}
-                transition={{
-                  duration: 3,
-                  ease: "easeInOut",
-                  repeat: Infinity,
-                  repeatType: "mirror",
-                }}
-            >
-                <Boat3 className=" scale-150 "/>
-            </motion.div>
+            <div className="about-nits flex  px-20">
+                    <RotatingThing className="w-[45vw] -mt-40 relative"/>
+                  <div className="aboutnits h-full w-full px-10 text-[#7D2E2E] text-justify text-[clamp(12px,_7vw,_24px)]">
+                  As spring gently nudges away winters slumber, bringing with it vibrant colours, a gentle warmth creeps in, as if welcoming the NoboBorsho. The air hums with anticipation, mirroring the excitement in our hearts. The gentle breeze sways the leaves welcoming the new year with better beginnings and fresh hopes. And amidst this effervescent atmosphere, our annual Bengali cultural extravaganza, Oikyotaan 24 pulsates with vibrant energy. A celebration of our rich heritage, a kaleidoscope of music, dance, art, and literature that unfolds against the backdrop of magic of spring.
+                  </div>
             </div>
+            <section className="sponsor-div flex h-[50vh] justify-center items-center relative">
+                  <div className="rakshabhandan w-full  flex justify-center items-center my-20">
+                    <div className="clouds-sponsor ">
+                        <Cloud1 className="absolute top-10  left-5 z-[2]"/>
+                        <Cloud1dark2 className="absolute top-35  -left-15 z-0"/>
+                    </div>
+                    <img src="/images/rakshabhandan.png" alt="center-decoration" className=" w-[43%]  object-contain ml-10"/>
+                  </div>
+                  <Branch className="absolute top-20 scale-175 right-0 z-2"/>
+            </section>
+            <section className="Sponsors-list w-full px-40 flex flex-wrap mx-auto gap-10 justify-center items-center mb-20">
+                          {sponsorsList.map((item, index) => (     
+                              <div className="size-72 relative"><SponsorItem className="size-72"/><img src="/images/amara.png"className="absolute size-52 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 " /></div>
+                        ))}
+            </section>
         </div>
     );
 }
