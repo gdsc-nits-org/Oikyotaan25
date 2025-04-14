@@ -1,6 +1,6 @@
 import "~/styles/globals.scss";
-import NavbarDesktop from "~/components/Navbar/NavbarDesktop";
-import NavbarMobile from "~/components/Navbar/NavbarMobile";
+import NavbarDesktop from "~/components/navbar/NavbarDesktop";
+import NavbarMobile from "~/components/navbar/NavbarMobile";
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 
