@@ -39,7 +39,7 @@ export default function EventPage() {
   }, []);
 
   return (
-    <div className="relative min-h-screen w-full overflow-x-hidden">
+    <div className="relative min-h-screen w-full overflow-x-hidden scrollbar-hide">
       <div
         className="-z-10 absolute top-0 left-0 min-h-full w-full bg-center bg-cover"
         style={{ backgroundImage: `url(${EventPhotos.bgImage})` }}
@@ -50,7 +50,7 @@ export default function EventPage() {
       <div className="relative z-20 flex flex-col items-center justify-center text-black">
         <div className="m-2 flex h-[300px] w-[90%] items-start justify-center md:h-auto">
           {/* Desktop */}
-          <div className="vertical-ball relative hidden h-[100px] w-[100px] md:mt-6 md:block md:h-[150px] md:w-[150px]">
+          <div className="vertical-ball relative hidden h-[100px] w-[100px] md:my-16 md:block md:h-[150px] md:w-[150px]">
             <div className="ball1 absolute top-0 left-0 z-10 h-[180px] w-[180px] rounded-full">
               <img
                 src={EventPhotos.ball1}
@@ -95,7 +95,7 @@ export default function EventPage() {
             </div>
 
             <div className="absolute top-0 left-0 z-0 flex h-full w-full items-center justify-center">
-              <h1 className="font-bold text-4xl lg:text-6xl">Events</h1>
+              <h1 className="font-bold text-4xl md:text-5xl lg:text-7xl" style={{ fontFamily: 'var(--font-aprillia)' }}>Events</h1>
             </div>
           </div>
 
@@ -139,7 +139,7 @@ export default function EventPage() {
               </div>
             </div>
             <div className="mt-6 flex justify-center">
-              <h1 className="font-bold text-[8vw]">EVENTS</h1>
+              <h1 className="font-bold text-[10vw]" style={{fontFamily : 'var(--font-aprillia)'}}>Events</h1>
             </div>
 
             <div className="flex w-[30%] flex-col items-center">

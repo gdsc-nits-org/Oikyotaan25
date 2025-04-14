@@ -27,6 +27,7 @@
 		"react-responsive": "^10.0.1",
 		"sass": "^1.86.0",
 		"swiper": "^11.2.6",
+		"tailwind-scrollbar-hide": "^2.0.0",
 		"zod": "^3.24.2"
 	},
 	"devDependencies": {
