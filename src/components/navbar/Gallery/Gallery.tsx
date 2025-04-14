@@ -30,11 +30,11 @@ const Gallery: React.FC = () => {
       <style>{`
         @keyframes horizontal1 {
           0%, 100% { transform: translateX(0); }
-          50% { transform: ${isTablet ? 'translateX(-20px)' : 'translateX(-50px)'}; }
+          50% { transform: ${isTablet ? 'translateX(-30px)' : 'translateX(-50px)'}; }
         }
         @keyframes horizontal2 {
           0%, 100% { transform: translateX(0); }
-          50% { transform: ${isTablet ? 'translateX(-20px)' : 'translateX(-50px)'}; }
+          50% { transform: ${isTablet ? 'translateX(-30px)' : 'translateX(-50px)'}; }
         }
         .animate-horizontal1 {
           animation: horizontal1 5s ease-out infinite;
