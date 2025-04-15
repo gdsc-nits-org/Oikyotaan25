@@ -39,15 +39,14 @@ export default function EventPage() {
   }, []);
 
   return (
-    <div className="relative min-h-screen w-full overflow-x-hidden scrollbar-hide">
-      <div
-        className="-z-10 absolute top-0 left-0 min-h-full w-full bg-center bg-[#E3C7A1]"
+       <div
+        className="min-h-screen relative  overflow-x-hidden bg-[#E3C7A1] mt-[5rem]"
         style={{
-          backgroundImage: `url('assets/gallery/bg.png')`,
+          backgroundImage: "url('assets/gallery/bg.png')",
           backgroundSize: "cover",
           backgroundRepeat: "repeat-y"
         }}
-      />
+      >
 
       <div className="-z-10 absolute top-0 left-0 min-h-full w-full bg-[#E3C7A1]/80" />
 
@@ -99,7 +98,7 @@ export default function EventPage() {
             </div>
 
             <div className="absolute top-0 left-0 z-0 flex h-full w-full items-center justify-center">
-              <h1 className="font-bold text-4xl md:text-5xl lg:text-7xl" style={{ fontFamily: 'var(--font-aprillia)' }}>Events</h1>
+              <h1 className="font-aprillia mx-auto mobile:text-3xl tablet:text-6xl laptop:text-8xl">Events</h1>
             </div>
           </div>
 
@@ -143,7 +142,7 @@ export default function EventPage() {
               </div>
             </div>
             <div className="mt-6 flex justify-center">
-              <h1 className="font-bold text-[10vw]" style={{ fontFamily: 'var(--font-aprillia)' }}>Events</h1>
+              <h1 className="font-aprillia mx-auto mobile:text-5xl tablet:text-6xl laptop:text-8xl translate-y-[1.5rem]">Events</h1>
             </div>
 
             <div className="flex w-[30%] flex-col items-center">
