@@ -11,7 +11,13 @@
 @theme {
 	--font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
 		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        --font-aprillia: "Aprillia", sans-serif;
+		--breakpoint-laptop: 1150px;
+		--breakpoint-mobile: 300px;
+		--breakpoint-tablet: 700px;
+		--breakpoint-ipad: 1000px;
 }
+
 @keyframes moveLeft {
     0% {
         transform: rotateZ(0deg);
@@ -37,10 +43,25 @@
 }
 
 .animate-dhakiLeft {
-    animation: moveLeft 1s infinite ease-in-out;
+    animation: moveLeft 3s infinite ease-in-out;
 }
 
 .animate-dhakiRight {
-    animation: moveRight 1s infinite ease-in-out;
+    animation: moveRight 3s infinite ease-in-out;
 
 }
+	
+
+body {
+	
+	overflow-y: scroll;
+	scrollbar-width: none; 
+  }
+  
+  body::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Edge */
+  }
+
+  ::-webkit-scrollbar {
+	display: none;     
+  }

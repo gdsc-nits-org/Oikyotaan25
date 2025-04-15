@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from "react";
-import artists from "~/data/artists";
+import artists from "public/assets/data/artists";
 import PopupModal from './popupModel';
 
 type ArtistType = {
@@ -26,11 +26,11 @@ export default function Artist() {
 
   return (
     <>
-      <div>
+      <div className="mt-[5rem]">
         <div
           className="w-full bg-[#E3C7A1] text-white"
           style={{
-            backgroundImage: `url('/assets/artist/bg_pattern.png')`,
+            backgroundImage: `url('assets/gallery/bg.png')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -59,7 +59,7 @@ export default function Artist() {
               <button
                 key={artist.id}
                 type="button"
-                className="group flex w-[35%] min-w-[250px] cursor-pointer flex-col items-center"
+                className="group flex w-[35%] min-w-[250px] cursor-pointer flex-col items-center cursor-pointer"
                 onClick={() => handleCardClick(artist)}
                 onKeyDown={(e) => {
                   if (e.key === "Enter" || e.key === " ") {
