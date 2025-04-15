@@ -29,6 +29,12 @@ importers:
       sass:
         specifier: ^1.86.0
         version: 1.86.0
+      swiper:
+        specifier: ^11.2.6
+        version: 11.2.6
+      tailwind-scrollbar-hide:
+        specifier: ^2.0.0
+        version: 2.0.0(tailwindcss@4.0.17)
       zod:
         specifier: ^3.24.2
         version: 3.24.2
@@ -770,6 +776,15 @@ packages:
       babel-plugin-macros:
         optional: true
 
+  swiper@11.2.6:
+    resolution: {integrity: sha512-8aXpYKtjy3DjcbzZfz+/OX/GhcU5h+looA6PbAzHMZT6ESSycSp9nAjPCenczgJyslV+rUGse64LMGpWE3PX9Q==}
+    engines: {node: '>= 4.7.0'}
+
+  tailwind-scrollbar-hide@2.0.0:
+    resolution: {integrity: sha512-lqiIutHliEiODwBRHy4G2+Tcayo2U7+3+4frBmoMETD72qtah+XhOk5XcPzC1nJvXhXUdfl2ajlMhUc2qC6CIg==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || >= 4.0.0 || >= 4.0.0-beta.8 || >= 4.0.0-alpha.20'
+
   tailwindcss@4.0.17:
     resolution: {integrity: sha512-OErSiGzRa6rLiOvaipsDZvLMSpsBZ4ysB4f0VKGXUrjw2jfkJRd6kjRKV2+ZmTCNvwtvgdDam5D7w6WXsdLJZw==}
 
@@ -1368,6 +1383,12 @@ snapshots:
     dependencies:
       client-only: 0.0.1
       react: 19.1.0
+
+  swiper@11.2.6: {}
+
+  tailwind-scrollbar-hide@2.0.0(tailwindcss@4.0.17):
+    dependencies:
+      tailwindcss: 4.0.17
 
   tailwindcss@4.0.17: {}
 

@@ -17,3 +17,17 @@
 		--breakpoint-tablet: 700px;
 		--breakpoint-ipad: 1000px;
 }
+
+body {
+	
+	overflow-y: scroll;
+	scrollbar-width: none; 
+  }
+  
+  body::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Edge */
+  }
+
+  ::-webkit-scrollbar {
+	display: none;     
+  }
