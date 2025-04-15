@@ -51,21 +51,25 @@ export default function Footer() {
                             />
                         </div>
 
-                        <div className="relative top-[-30px] mx-auto mt-8 flex h-24 w-[60%] flex-row flex-wrap items-center justify-between font-normal text-[#F5E3C3] text-sm sm:relative sm:top-[-24px] sm:h-24 sm:w-[50%] sm:text-xl">
-                            <div className="flex flex-row items-center px-1 text-lg sm:px-8 sm:text-xl">
+                        <div className="relative top-[-30px] mx-auto mt-8 flex h-24 w-[65%] flex-row flex-wrap items-center justify-between font-normal text-[#F5E3C3] text-sm sm:relative sm:top-[-24px] sm:h-24 sm:w-[50%] sm:text-xl">
+                            <a href="https://www.google.com/maps/place/National+Institute+of+Technology,+Silchar/@24.7577143,92.787422,17z/data=!3m1!4b1!4m6!3m5!1s0x374e49dcb63bae9b:0x81efa836714a289b!8m2!3d24.7577144!4d92.7922929!16zL20vMDhfMWhk?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><div className="flex flex-row items-center px-1 text-lg sm:px-8 sm:text-xl">
                                 <IoLocationOutline className="mr-2" /> NIT
                                 Silchar, Assam, India
                             </div>
+                            </a>
                             <div className="px-1 sm:px-8">PIN-788010</div>
-                            <div className="flex flex-row items-center px-1 sm:px-8">
+                            <a href="https://www.facebook.com/share/1XfagwA6Zt/" target="_blank"><div className="flex flex-row items-center px-1 sm:px-8">
                                 <FaFacebookSquare className="mr-2" /> Facebook
                             </div>
+                            </a>
                             <div className="flex flex-row items-center px-1 sm:px-8">
                                 <FaPhoneAlt className="mr-2" /> 03842-228479
                             </div>
-                            <div className="flex flex-row items-center px-1 sm:px-8">
-                                <FaInstagram className="mr-2" /> Instagram
+                            <a href="https://www.instagram.com/_oikyotaan_/" target="_blank">
+                            <div className="flex flex-row items-center px-1 sm:px-8"><FaInstagram  className="mr-2" /> Instagram
+                             
                             </div>
+                            </a>
                         </div>
                     </div>
                 </div>

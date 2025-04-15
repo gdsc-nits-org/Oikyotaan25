@@ -11,11 +11,11 @@ const PopupModal: React.FC<PopupModalProps> = ({ isOpen, onClose, children }) =>
   if (!isOpen) return null;
 
   return (
-    <div className="absolute top-38 z-50 flex h-[72%] w-full items-center justify-center overflow-hidden rounded-lg border-[#7D2E2E] border-x-2 border-y-6 bg-gray-200 bg-opacity-50 shadow-lg sm:absolute sm:top-60 sm:h-[65%">
+    <div className="absolute top-38 z-50 flex h-[85%] w-full items-center justify-center overflow-hidden rounded-lg border-[#7D2E2E] border-x-2 border-y-6 bg-gray-200 bg-opacity-50 shadow-lg sm:absolute sm:top-60 sm:h-[65%">
         <button
-        type='button'
+          type="button"
           onClick={onClose}
-          className="absolute top-0 right-3 text-6xl text-gray-500 hover:text-gray-800 cursor-pointer"
+          className="absolute top-2 right-3 z-50 text-6xl text-gray-500 hover:text-gray-800 cursor-pointer"
         >
           &times;
         </button>
