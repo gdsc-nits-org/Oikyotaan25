@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+
+@font-face {
+	font-family: "Aprillia";
+	src: url("/assets/fonts/Aprillia Script_TEST.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
 @theme {
 	--font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
 		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -34,4 +42,5 @@
 
 .animate-dhakiRight {
     animation: moveRight 1s infinite ease-in-out;
+
 }
