@@ -18,7 +18,7 @@ import { EventPhotos } from "public/EventsPhotos/EventsPhotos";
 import "../../styles/events.scss";
 
 //Card Component
-import Card from "~/components/Card";
+import Card from "~/components/EventCard";
 
 export default function EventPage() {
   const swiperRef = useRef<SwiperType | null>(null);
@@ -41,8 +41,12 @@ export default function EventPage() {
   return (
     <div className="relative min-h-screen w-full overflow-x-hidden scrollbar-hide">
       <div
-        className="-z-10 absolute top-0 left-0 min-h-full w-full bg-center bg-cover"
-        style={{ backgroundImage: `url(${EventPhotos.bgImage})` }}
+        className="-z-10 absolute top-0 left-0 min-h-full w-full bg-center bg-[#E3C7A1]"
+        style={{
+          backgroundImage: `url('assets/gallery/bg.png')`,
+          backgroundSize: "cover",
+          backgroundRepeat: "repeat-y"
+        }}
       />
 
       <div className="-z-10 absolute top-0 left-0 min-h-full w-full bg-[#E3C7A1]/80" />
@@ -139,7 +143,7 @@ export default function EventPage() {
               </div>
             </div>
             <div className="mt-6 flex justify-center">
-              <h1 className="font-bold text-[10vw]" style={{fontFamily : 'var(--font-aprillia)'}}>Events</h1>
+              <h1 className="font-bold text-[10vw]" style={{ fontFamily: 'var(--font-aprillia)' }}>Events</h1>
             </div>
 
             <div className="flex w-[30%] flex-col items-center">
@@ -207,7 +211,7 @@ export default function EventPage() {
           <button
             type="button"
             onClick={() => swiperRef.current && slidePrev()}
-            className="flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(125,46,46,1)] p-2"
+            className="flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(125,46,46,1)] p-2 cursor-pointer"
           >
             <img
               src={EventPhotos.navButton}
@@ -223,7 +227,7 @@ export default function EventPage() {
           <button
             type="button"
             onClick={() => swiperRef.current && slideNext()}
-            className="flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(125,46,46,1)] p-2"
+            className="flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(125,46,46,1)] p-2 cursor-pointer"
           >
             <img
               src={EventPhotos.navButton}
