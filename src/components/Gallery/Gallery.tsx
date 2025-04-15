@@ -44,14 +44,14 @@ const Gallery: React.FC = () => {
       `}</style>
 
       <div
-        className="min-h-screen h-max overflow-hidden bg-[#E3C7A1] flex flex-col items-center justify-center"
+        className="min-h-screen  overflow-hidden bg-[#E3C7A1] flex flex-col items-center justify-center mt-[5rem] "
         style={{
           backgroundImage: "url('assets/gallery/bg.png')",
           backgroundSize: "cover",
           backgroundRepeat: "repeat-y"
         }}
       >
-        <img src="/assets/gallery/img1.png" alt="" className="absolute mobile:h-[40vw] laptop:h-[25rem] mobile:top-[13%] tablet:top-[18%] laptop:top-[11%] left-[2%]" />
+        <img src="/assets/gallery/img1.png" alt="" className="absolute mobile:h-[40vw] laptop:h-[25rem] mobile:top-[13%] tablet:top-[18%] laptop:top-[14%] left-[-2%] md:left-[2%]" />
 
         <div >
           <h1 className="relative font-aprillia mx-auto mobile:text-3xl tablet:text-6xl laptop:text-8xl z-20 mobile:translate-y-[220%] tablet:translate-y-[240%] ipad:translate-y-[300%] laptop:translate-y-[220%]">Photo Gallery</h1>
@@ -62,14 +62,14 @@ const Gallery: React.FC = () => {
           />
         </div>
 
-        <div className="absolute mobile:w-[32vw] mobile:h-[32vh] laptop:w-[42vh] laptop:h-[42vh] mobile:top-[15%] tablet:top-[21%] laptop:top-[13%] right-0">
+        <div className="absolute mobile:w-[32vw] mobile:h-[32vh] laptop:w-[42vh] laptop:h-[42vh] mobile:top-[15%] tablet:top-[21%] laptop:top-[16%] right-0">
           <img
             src="/assets/gallery/grp1.png"
             alt="Art Right 1"
-            className="absolute top-0 left-[20%] -translate-x-1/2 z-10"
+            className="absolute top-0 left-[42%] md:left-[20%] -translate-x-1/2 z-10"
           />
         </div>
-:
+        :
         <div className="mobile:h-[25vh] tablet:h-[40vh] laptop:h-[55vh] ipad:h-[45vh]" />
 
         <div className="relative flex h-[400px] w-screen-md scale-100 items-center justify-center ipadair:scale-50 xl:scale-100 z-10 mb-10">
@@ -79,7 +79,7 @@ const Gallery: React.FC = () => {
 
             if (position === 0) {
               styles = {
-                transform: `scale(1) ${isTablet ? 'rotate(5deg)': 'rotate(-10deg) translateX(-24vw)'}`,
+                transform: `scale(1) ${isTablet ? 'rotate(5deg)' : 'rotate(-10deg) translateX(-24vw)'}`,
                 zIndex: 10,
                 opacity: 1,
               };
@@ -118,14 +118,14 @@ const Gallery: React.FC = () => {
 
         <div className="gap-x-[4vw] flex items-center justify-center mt-[2vh] z-[1000]">
           <button
-          type="button"
+            type="button"
             onClick={handlePrev}
             className="z-10 mx-2 h-[7vh] w-[7vh] rounded-full bg-[#7D2E2E] px-[2px] text-[6vh] text-[#F3CA4E] cursor-pointer"
           >
             <GoTriangleLeft />
           </button>
           <button
-          type="button"
+            type="button"
             onClick={handleNext}
             className="z-10 mx-2 h-[7vh] w-[7vh] rounded-full bg-[#7D2E2E] px-[6px] text-[6vh] text-[#F3CA4E] cursor-pointer"
           >
@@ -134,8 +134,8 @@ const Gallery: React.FC = () => {
         </div>
 
         <div className="mobile:-translate-y-[13rem] tablet:-translate-y-[10rem] laptop:-translate-y-[7rem] relative z-10">
-          <img src="/assets/gallery/grp2.png" alt="" 
-          className="scale-125 laptop:scale-100"/>
+          <img src="/assets/gallery/grp2.png" alt=""
+            className="scale-125 laptop:scale-100" />
           <img
             src="/assets/gallery/grp3.png"
             alt=""
