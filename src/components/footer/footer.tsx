@@ -3,6 +3,7 @@ import { FaInstagram } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
+import Link from "next/link";
 export default function Footer() {
     return (
         <div className="relative w-full bg-[#E3C7A1]">
@@ -13,7 +14,7 @@ export default function Footer() {
                     className="h-full w-full object-cover"
                 />
             </div>
-            <footer className="relative bottom-0 w-full overflow-hidden bg-[#7D2E2E] py-3 text-white sm:h-auto" style={{backgroundImage: "url('/assets/footer/dhanbg.png')", backgroundPosition: "center", backgroundSize: "cover"}}>
+            <footer className="relative bottom-0 w-full overflow-hidden bg-[#7D2E2E] py-3 text-white sm:h-auto" style={{ backgroundImage: "url('/assets/footer/dhanbg.png')", backgroundPosition: "center", backgroundSize: "cover" }}>
                 <div>
                     <div>
                         <img
@@ -66,20 +67,22 @@ export default function Footer() {
                                 <FaPhoneAlt className="mr-2" /> 03842-228479
                             </div>
                             <a href="https://www.instagram.com/_oikyotaan_/" target="_blank">
-                            <div className="flex flex-row items-center px-1 sm:px-8"><FaInstagram  className="mr-2" /> Instagram
-                             
-                            </div>
+                                <div className="flex flex-row items-center px-1 sm:px-8"><FaInstagram className="mr-2" /> Instagram
+
+                                </div>
                             </a>
                         </div>
                     </div>
                 </div>
 
                 <div className="mx-auto my-8 h-[12%] w-[55%] sm:my-12 sm:h-[10%] sm:w-[32%]">
-                    <img
-                        src="/assets/footer/gdgc.png"
-                        alt="GDGC Logo"
-                        className="h-full w-full object-contain"
-                    />
+                    <Link href="https://gdscnits.in" target="_blank">
+                        <img
+                            src="/assets/footer/gdgc.png"
+                            alt="GDGC Logo"
+                            className="h-full w-full object-contain"
+                        />
+                    </Link>
                 </div>
 
                 <div className="absolute bottom-0 flex h-[8%] w-full flex-row items-center justify-center bg-[#1311119C] font-thin text-[#F5E3C3] sm:text-xl">
