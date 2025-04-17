@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./animations";
 
 
 @font-face {
@@ -7,17 +8,28 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: "Puritan";
+	src: url("/assets/fonts/Puritan-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
 
 @theme {
 	--font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
 		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         --font-aprillia: "Aprillia", sans-serif;
+        --font-puritan: "Puritan", sans-serif;
 		--breakpoint-laptop: 1150px;
 		--breakpoint-mobile: 300px;
 		--breakpoint-tablet: 700px;
 		--breakpoint-ipad: 1000px;
 }
 
+:root {
+	--font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 @keyframes moveLeft {
     0% {
         transform: rotateZ(0deg);
