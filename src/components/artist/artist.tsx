@@ -118,7 +118,7 @@ export default function Artist() {
                 <div className="flex w-full flex-row items-center justify-center">
                   <img
                     src="/assets/Artist/designRight.png"
-                    className="-right-[10%] relative w-[35%] rotate-[30deg] object-contain transition-transform duration-900 group-hover:rotate-[-1deg] sm:right-[-25%] sm:w-[60%] md:w-[50%] max-w-full"
+                    className="-right-[10%] relative w-[35%] rotate-[30deg] object-contain transition-transform duration-900 group-hover:rotate-[-1deg] sm:right-[-21%] sm:w-[60%] md:w-[50%] max-w-full"
                     alt="Design Right"
                   />
                   <img
@@ -138,7 +138,7 @@ export default function Artist() {
                   />
                   <img
                     src="/assets/Artist/designLeft.png"
-                    className="-rotate-[34deg] -left-[12%] relative w-[35%] object-contain transition-transform duration-900 group-hover:rotate-[-1deg] sm:left-[-23%] sm:w-[55%] md:w-[50%] max-w-full"
+                    className="-rotate-[34deg] -left-[12%] relative w-[35%] object-contain transition-transform duration-900 group-hover:rotate-[-1deg] sm:left-[-21%] sm:w-[55%] md:w-[50%] max-w-full"
                     alt="Design Left"
                   />
                 </div>
@@ -148,7 +148,7 @@ export default function Artist() {
                   className="-mt-4 sm:-top-9 -top-3 relative w-[35%] object-contain sm:w-[65%] md:w-[60%] max-w-full"
                   alt="Name Box"
                 />
-                <h1 className="sm:-top-32 -top-13 font-aprillia relative left-0 mt-2 text-center font-bold text-sm sm:text-5l md:text-3xl">
+                <h1 className="sm:-top-32 -top-13 font-aprillia relative left-0 mt-2 text-center font-bold text-sm sm:text-5l md:text-4xl">
                   <span className="text-[#7D2E2E]">{selectedArtist.name}</span>
                 </h1>
               </div>
