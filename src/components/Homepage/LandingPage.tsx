@@ -49,7 +49,7 @@ export default function LandingPage() {
                     <img src="/images/aartilady.png" alt="aarti" className="h-full w-[49vw]  object-contain scale-x-[-1]"/>
                 </div>
 
-                <div className="text-about-oikyotaan px-10 h-full w-full text-[#7D2E2E] text-justify text-[clamp(14px,_5vw,_28px)] font-semibold  ">
+                <div className="text-about-oikyotaan px-10 pb-10 h-full w-full text-[#7D2E2E] text-justify text-[clamp(14px,_4vw,_28px)] font-semibold  ">
                 As spring gently nudges away winters slumber, bringing with it vibrant colours, a gentle warmth creeps in, as if welcoming the NoboBorsho. The air hums with anticipation, mirroring the excitement in our hearts. The gentle breeze sways the leaves welcoming the new year with better beginnings and fresh hopes. And amidst this effervescent atmosphere, our annual Bengali cultural extravaganza, Oikyotaan 24 pulsates with vibrant energy. A celebration of our rich heritage, a kaleidoscope of music, dance, art, and literature that unfolds against the backdrop of magic of spring.
                 </div>
             </div>
@@ -60,7 +60,7 @@ export default function LandingPage() {
                         <Cloud1dark1 className="absolute top-20 w-[175px] -right-20  z-0"/>
                         <Cloud1dark2 className="absolute top-30 w-[175px] right-5 z-[1] "/>
                     </div>
-                    <div className="rakshabhandan  md:w-full w-[200vw]   flex justify-center items-center my-20">
+                    <div className="rakshabhandan  md:w-full w-[200vw]   flex justify-center items-center md:my-20 mt-20">
                         <div className="clouds-about hidden md:inline-flex bg-green-900">
                             <Cloud1 className="absolute top-10  right-10 z-[2]"/>
                             <Cloud1dark1 className="absolute top-20  -right-30 z-0"/>
@@ -70,9 +70,10 @@ export default function LandingPage() {
                   </div>
                   
             </div>
-            <section className="about-nits md:flex-row flex flex-col items-center  md:px-20 py-10 ">
-                    <RotatingThing className="w-[45vw] -mt-40 relative"/>
-                  <div className="aboutnits  h-full w-full px-10 text-[#7D2E2E] text-justify text-[clamp(14px,_5vw,_28px)] font-semibold  ">
+            <section className="about-nits md:flex-row flex flex-col items-center justify-center gap-10 md:px-20 py-10 ">
+                    {/* <RotatingThing className="w-[45vw] -mt-40 relative"/> */}
+                    <img src="/images/rotatingThing.gif" alt="rotating-thing" className=" md:w-[45vw]  md:h-auto w-[80vw]  object-contain  relative"/>
+                  <div className="aboutnits  h-full w-full px-10 md:px-0 text-[#7D2E2E] text-justify md:text-[clamp(14px,_2vw,_28px)] text-[clamp(14px,_4vw,_28px)] font-semibold  ">
                   As spring gently nudges away winters slumber, bringing with it vibrant colours, a gentle warmth creeps in, as if welcoming the NoboBorsho. The air hums with anticipation, mirroring the excitement in our hearts. The gentle breeze sways the leaves welcoming the new year with better beginnings and fresh hopes. And amidst this effervescent atmosphere, our annual Bengali cultural extravaganza, Oikyotaan 24 pulsates with vibrant energy. A celebration of our rich heritage, a kaleidoscope of music, dance, art, and literature that unfolds against the backdrop of magic of spring.
                   </div>
             </section>
