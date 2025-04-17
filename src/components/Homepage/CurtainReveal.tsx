@@ -16,7 +16,7 @@ export default function CurtainReveal({ className, title }: CurtainProps) {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.6, ease: 'easeInOut' }}
         viewport={{ once: true }}
-        className="absolute inset-0 flex items-center justify-center font-bold md:text-4xl text-2xl z-20 text-[#7D2E2E] "  // Added z-20 to ensure the title is above
+        className="absolute inset-0 flex items-center justify-center font-aprillia md:text-5xl tracking-wide text-2xl z-20 text-[#7D2E2E] "  // Added z-20 to ensure the title is above
       >
         {title}
       </motion.div>
@@ -24,7 +24,7 @@ export default function CurtainReveal({ className, title }: CurtainProps) {
       {/* Top Half of Curtain */}
       <motion.div
         initial={{ y: 0 }}
-        whileInView={{ y: "-30%" }}  // Adjusted y value to move just enough for the title to be visible
+        whileInView={{ y: "-33%" }}  // Adjusted y value to move just enough for the title to be visible
         transition={{ duration: 1.2, ease: "easeInOut" }}
         viewport={{ once: true }}
         className="h-1/2 overflow-hidden z-10"
@@ -39,7 +39,7 @@ export default function CurtainReveal({ className, title }: CurtainProps) {
       {/* Bottom Half of Curtain */}
       <motion.div
         initial={{ y: 0 }}
-        whileInView={{ y: "30%" }}  // Adjusted y value to move just enough for the title to be visible
+        whileInView={{ y: "33%" }}  // Adjusted y value to move just enough for the title to be visible
         transition={{ duration: 1.2, ease: "easeInOut" }}
         viewport={{ once: true }}
         className="h-1/2 overflow-hidden z-10"
