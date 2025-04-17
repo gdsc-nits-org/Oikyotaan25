@@ -1,0 +1,67 @@
+[
+    {
+      "name": "Rohit Sharma",
+      "designation": "UI/Ux Co Head",
+      "image": "/assets/team/person.png",
+      "instagram": "https://instagram.com/rahul",
+      "facebook": "https://facebook.com/rahul",
+      "linkedin": "https://linkedin.com/in/rahul"
+    },
+    {
+      "name": "Kunal Sharma",
+      "designation": "UI/Ux Co Head",
+      "image": "/assets/team/person.png",
+      "instagram": "https://instagram.com/rahul",
+      "facebook": "https://facebook.com/rahul",
+      "linkedin": "https://linkedin.com/in/rahul"
+    },
+    {
+      "name": "Bhavya Sharma",
+      "designation": "UI/Ux Co Head",
+      "image": "/assets/team/person.png",
+      "instagram": "https://instagram.com/rahul",
+      "facebook": "https://facebook.com/rahul",
+      "linkedin": "https://linkedin.com/in/rahul"
+    },
+    {
+      "name": "Pulkit Sharma",
+      "designation": "UI/Ux Co Head",
+      "image": "/assets/team/person.png",
+      "instagram": "https://instagram.com/rahul",
+      "facebook": "https://facebook.com/rahul",
+      "linkedin": "https://linkedin.com/in/rahul"
+    },
+    {
+        "name": "Rohit Sharma",
+        "designation": "UI/Ux Co Head",
+        "image": "/assets/team/person.png",
+        "instagram": "https://instagram.com/rahul",
+        "facebook": "https://facebook.com/rahul",
+        "linkedin": "https://linkedin.com/in/rahul"
+      },
+      {
+        "name": "Kunal Sharma",
+        "designation": "UI/Ux Co Head",
+        "image": "/assets/team/person.png",
+        "instagram": "https://instagram.com/rahul",
+        "facebook": "https://facebook.com/rahul",
+        "linkedin": "https://linkedin.com/in/rahul"
+      },
+      {
+        "name": "Bhavya Sharma",
+        "designation": "UI/Ux Co Head",
+        "image": "/assets/team/person.png",
+        "instagram": "https://instagram.com/rahul",
+        "facebook": "https://facebook.com/rahul",
+        "linkedin": "https://linkedin.com/in/rahul"
+      },
+      {
+        "name": "Pulkit Sharma",
+        "designation": "UI/Ux Co Head",
+        "image": "/assets/team/person.png",
+        "instagram": "https://instagram.com/rahul",
+        "facebook": "https://facebook.com/rahul",
+        "linkedin": "https://linkedin.com/in/rahul"
+      }
+  ]
+  
