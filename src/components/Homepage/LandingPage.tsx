@@ -6,16 +6,17 @@ import { RotatingThing } from "./svgs/rotatingthing";
 import { SponsorItem } from "./svgs/sponsorItem";
 import { BorderDesign } from "./svgs/topBorder";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function LandingPage() {
-    const sponsorsList = ["abd","asf","Rsdfg0","aesgd","rage","cyberpunk"]
+    const sponsorsList = ["abd", "asf", "Rsdfg0", "aesgd", "rage", "cyberpunk"]
     return (
-        <div className="w-full overflow-x-hidden  relative h-full bg-[url('/images/bgImage.png')]  md:bg-cover bg-size-[100vh] landbg bg-center "
-        style={{
-            backgroundSize: "150vh", // Default for small screens
-          }}
+        <div className="w-full overflow-x-hidden  bg-[#E3C7A1]  relative h-full bg-[url('/assets/landing/bgImage.png')]  md:bg-cover bg-size-[100vh] landbg bg-center "
+            style={{
+                backgroundSize: "150vh", // Default for small screens
+            }}
         >
-        
+
             <div className="w-full bg-[#7D2E2E] h-[22px] "></div>
             <BorderDesign className="w-full absolute -top-10 z-50"/>
 
@@ -38,18 +39,18 @@ export default function LandingPage() {
                 <img src="/images/RightKamal.png" alt="right-decoration" className=" md:w-[20%] w-[30%] absolute z-0 top-0 right-0 "/>
             </div>
             {/* desktop view */}
-            <div className="md:inline-flex hidden flex  items-center">
-                <img src="/images/aartilady.png" alt="aarti" className="w-[30vw]  object-contain"/>
-                <div className="text-about-oikyotaan h-full w-full text-[#7D2E2E] text-justify text-[clamp(12px,_2vw,_28px)]  ">
-                As spring gently nudges away winters slumber, bringing with it vibrant colours, a gentle warmth creeps in, as if welcoming the NoboBorsho. The air hums with anticipation, mirroring the excitement in our hearts. The gentle breeze sways the leaves welcoming the new year with better beginnings and fresh hopes. And amidst this effervescent atmosphere, our annual Bengali cultural extravaganza, Oikyotaan 24 pulsates with vibrant energy. A celebration of our rich heritage, a kaleidoscope of music, dance, art, and literature that unfolds against the backdrop of magic of spring.
+            <div className="md:inline-flex hidden flex  items-center w-[100%] justify-center itens-center">
+                <img src="/assets/landing/aartilady.png" alt="aarti" className="w-[20vw]  object-contain" />
+                <div className="text-about-oikyotaan h-full w-[45%] text-[#7D2E2E] text-justify  font-puritan text-2xl lg:pl-5 lg:pr-5">
+                    As spring gently nudges away winters slumber, bringing with it vibrant colours, a gentle warmth creeps in, as if welcoming the NoboBorsho. The air hums with anticipation, mirroring the excitement in our hearts. The gentle breeze sways the leaves welcoming the new year with better beginnings and fresh hopes. And amidst this effervescent atmosphere, our annual Bengali cultural extravaganza, Oikyotaan 24 pulsates with vibrant energy. A celebration of our rich heritage, a kaleidoscope of music, dance, art, and literature that unfolds against the backdrop of magic of spring.
                 </div>
-                <img src="/images/aartilady.png" alt="aarti" className="w-[30vw]  object-contain scale-x-[-1]"/>
+                <img src="/assets/landing/aartilady.png" alt="aarti" className="w-[20vw]  object-contain scale-x-[-1]" />
             </div>
             {/* mobile view */}
             <div className="inline-flex md:hidden flex flex-col  items-center">
                 <div className="flex h-[50vh] sm:h-[60vh] w-full justify-center items-center relative">
-                    <img src="/images/aartilady.png" alt="aarti" className="h-full w-[49vw]  object-contain"/>
-                    <img src="/images/aartilady.png" alt="aarti" className="h-full w-[49vw]  object-contain scale-x-[-1]"/>
+                    <img src="/assets/landing/aartilady.png" alt="aarti" className="h-full w-[49vw]  object-contain" />
+                    <img src="/assets/landing/aartilady.png" alt="aarti" className="h-full w-[49vw]  object-contain scale-x-[-1]" />
                 </div>
 
                 <div className="text-about-oikyotaan px-10 pb-10 h-full w-full text-[#7D2E2E] text-justify text-[clamp(14px,_4vw,_28px)] font-semibold  ">
@@ -82,10 +83,10 @@ export default function LandingPage() {
                   </div>
             </section>
             <section className="sponsor-div  flex h-[50vh] justify-center items-center relative">
-                  <div className="rakshabhandan w-full  flex justify-center items-center my-20">
+                <div className="rakshabhandan w-full  flex justify-center items-center my-20">
                     <div className="clouds-sponsor ">
-                        <Cloud1 className="absolute top-10 w-[50vw] md:w-auto left-5 z-[2]"/>
-                        <Cloud1dark2 className="absolute top-35 w-[50vw] md:w-auto -left-15 z-0"/>
+                        <Cloud1 className="absolute top-10 w-[50vw] md:w-auto left-5 z-[2]" />
+                        <Cloud1dark2 className="absolute top-35 w-[50vw] md:w-auto -left-15 z-0" />
                     </div>
                     <CurtainReveal title="Sponsors" className=" w-[43%] md:inline-flex md:flex-col relative hidden object-contain ml-10"/>
                     {/* <img src="/images/rakshabhandan.png" alt="center-decoration" className=" w-[43%] md:inline-flex hidden object-contain ml-10"/> */}
@@ -98,9 +99,9 @@ export default function LandingPage() {
                 {/* <img src="/images/rakshabhandan.png" alt="center-decoration" className="  object-contain "/> */}
             </div>
             <section className="Sponsors-list w-full p-10 md:py-0 md:px-40 flex flex-wrap mx-auto gap-10 justify-center items-center mb-20">
-                          {sponsorsList.map((item, index) => (     
-                              <div className="md:size-72 sm:size-56 size-32 relative bg-red-900"><SponsorItem className="md:size-72"/><img src="/images/amara.png"className="absolute md:size-52 sm:size-36 size-24 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 " /></div>
-                        ))}
+                {sponsorsList.map((item, index) => (
+                    <div key={index} className="md:size-72 sm:size-56 size-32 relative bg-red-900"><SponsorItem className="md:size-72" /><img src="/assets/landing/amara.png" className="absolute md:size-52 sm:size-36 size-24 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 " /></div>
+                ))}
             </section>
         </div>
     );
