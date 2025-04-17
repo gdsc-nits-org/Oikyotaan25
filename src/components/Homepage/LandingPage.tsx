@@ -1,4 +1,5 @@
 "use client"
+import CurtainReveal from "./CurtainReveal";
 import { Branch } from "./svgs/branch";
 import { Cloud1, Cloud1dark1, Cloud1dark2 } from "./svgs/cloud";
 import { RotatingThing } from "./svgs/rotatingthing";
@@ -17,7 +18,8 @@ export default function LandingPage() {
         
             <div className="w-full bg-[#7D2E2E] h-[22px] "></div>
             <BorderDesign className="w-full absolute -top-10 z-50"/>
-            <div className="relative top-Deco-images flex justify-center md:items-center items-end  w-full object-contain sm:h-[60vh] md:h-[60vh] h-[40vh] overflow-y-hidden">
+
+            <div className="relative top-Deco-images flex justify-center md:items-center items-end  w-full object-contain sm:h-[60vh] md:h-[60vh] h-[40vh] overflow-y-hidden pb-0">
                 <motion.img src="/images/LeftKamal.png" alt="left-decoration" className=" md:w-[30%] w-[40%] absolute z-0 top-0 left-0 scale-[1.05]  "
                 animate={{
                     rotate: [-4, 4],
@@ -31,7 +33,8 @@ export default function LandingPage() {
                     delay: 0.2,
                   }}
                 ></motion.img>
-                <img src="/images/rakshabhandan.png" alt="center-decoration" className=" md:w-[43%] md:mt-0 object-contain md:ml-40"/>
+                <CurtainReveal className=" md:w-[53%] md:mt-10 mb-4 relative object-contain flex flex-col md:ml-40 " title="About"/>
+                {/* <img src="/images/rakshabhandan.png" alt="center-decoration" className=" md:w-[43%] md:mt-0 object-contain md:ml-40"/> */}
                 <img src="/images/RightKamal.png" alt="right-decoration" className=" md:w-[20%] w-[30%] absolute z-0 top-0 right-0 "/>
             </div>
             {/* desktop view */}
@@ -66,7 +69,8 @@ export default function LandingPage() {
                             <Cloud1dark1 className="absolute top-20  -right-30 z-0"/>
                             <Cloud1dark2 className="absolute top-40 right-0 z-[1] "/>
                         </div>
-                    <img src="/images/rakshabhandan.png" alt="center-decoration" className=" md:w-[43%] w-[100vw]  object-contain md:ml-10"/>
+                        <CurtainReveal title="Oikyotan" className=" md:w-[43%] relative w-[100vw]  object-contain md:ml-10"/>
+                       {/* <img src="/images/rakshabhandan.png" alt="center-decoration" className=" md:w-[43%] w-[100vw]  object-contain md:ml-10"/> */}
                   </div>
                   
             </div>
@@ -83,13 +87,15 @@ export default function LandingPage() {
                         <Cloud1 className="absolute top-10 w-[50vw] md:w-auto left-5 z-[2]"/>
                         <Cloud1dark2 className="absolute top-35 w-[50vw] md:w-auto -left-15 z-0"/>
                     </div>
-                    <img src="/images/rakshabhandan.png" alt="center-decoration" className=" w-[43%] md:inline-flex hidden object-contain ml-10"/>
+                    <CurtainReveal title="Sponsors" className=" w-[43%] md:inline-flex md:flex-col relative hidden object-contain ml-10"/>
+                    {/* <img src="/images/rakshabhandan.png" alt="center-decoration" className=" w-[43%] md:inline-flex hidden object-contain ml-10"/> */}
                   </div>
                   <Branch className="absolute top-20 md:scale-175 -right-1 z-2"/>
             </section>
             {/* mobile view */}
             <div className="rakhshabhandan w-full inline-flex justify-center md:hidden">
-                <img src="/images/rakshabhandan.png" alt="center-decoration" className="  object-contain "/>
+                <CurtainReveal title="Sponsors" className=" w-[100vw] relative object-contain "/>
+                {/* <img src="/images/rakshabhandan.png" alt="center-decoration" className="  object-contain "/> */}
             </div>
             <section className="Sponsors-list w-full p-10 md:py-0 md:px-40 flex flex-wrap mx-auto gap-10 justify-center items-center mb-20">
                           {sponsorsList.map((item, index) => (     
