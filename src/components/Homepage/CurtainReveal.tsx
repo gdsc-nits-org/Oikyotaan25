@@ -30,7 +30,7 @@ export default function CurtainReveal({ className, title }: CurtainProps) {
         className="h-1/2 overflow-hidden z-10"
       >
         <img
-          src="/images/rakshabhandan-above.png"
+          src="/assets/landing/rakshabhandan-above.png"
           alt="Top Half"
           className="w-full h-full object-contain object-top"
         />
@@ -45,7 +45,7 @@ export default function CurtainReveal({ className, title }: CurtainProps) {
         className="h-1/2 overflow-hidden z-10"
       >
         <img
-          src="/images/rakshabhandan-below.png"
+          src="/assets/landing/rakshabhandan-below.png"
           alt="Bottom Half"
           className="w-full h-full object-contain object-bottom"
         />

@@ -21,7 +21,7 @@ export default function LandingPage() {
             <BorderDesign className="w-full absolute -top-10 z-50"/>
 
             <div className="relative top-Deco-images flex justify-center md:items-center items-end  w-full object-contain sm:h-[60vh] md:h-[60vh] h-[40vh] overflow-y-hidden pb-0">
-                <motion.img src="/images/LeftKamal.png" alt="left-decoration" className=" md:w-[30%] w-[40%] absolute z-0 top-0 left-0 scale-[1.05]  "
+                <motion.img src="/assets/landing/LeftKamal.png" alt="left-decoration" className=" md:w-[30%] w-[40%] absolute z-0 top-0 left-0 scale-[1.05]  "
                 animate={{
                     rotate: [-4, 4],
                 }}
@@ -36,7 +36,7 @@ export default function LandingPage() {
                 ></motion.img>
                 <CurtainReveal className=" md:w-[53%] md:mt-10 mb-4 relative object-contain flex flex-col md:ml-40 " title="About"/>
                 {/* <img src="/images/rakshabhandan.png" alt="center-decoration" className=" md:w-[43%] md:mt-0 object-contain md:ml-40"/> */}
-                <img src="/images/RightKamal.png" alt="right-decoration" className=" md:w-[20%] w-[30%] absolute z-0 top-0 right-0 "/>
+                <img src="/assets/landing/RightKamal.png" alt="right-decoration" className=" md:w-[20%] w-[30%] absolute z-0 top-0 right-0 "/>
             </div>
             {/* desktop view */}
             <div className="md:inline-flex hidden flex  items-center w-[100%] justify-center itens-center">
@@ -77,7 +77,7 @@ export default function LandingPage() {
             </div>
             <section className="about-nits md:flex-row flex flex-col items-center justify-center gap-10 md:px-20 py-10 ">
                     {/* <RotatingThing className="w-[45vw] -mt-40 relative"/> */}
-                    <img src="/images/rotatingThing.gif" alt="rotating-thing" className=" md:w-[45vw]  md:h-auto w-[80vw]  object-contain  relative"/>
+                    <img src="assets/landing/rotatingThing.gif" alt="rotating-thing" className=" md:w-[45vw]  md:h-auto w-[80vw]  object-contain  relative"/>
                   <div className="aboutnits  h-full w-full px-10 md:px-0 text-[#7D2E2E] text-justify md:text-[clamp(14px,_2vw,_28px)] text-[clamp(14px,_4vw,_28px)] font-semibold  ">
                   As spring gently nudges away winters slumber, bringing with it vibrant colours, a gentle warmth creeps in, as if welcoming the NoboBorsho. The air hums with anticipation, mirroring the excitement in our hearts. The gentle breeze sways the leaves welcoming the new year with better beginnings and fresh hopes. And amidst this effervescent atmosphere, our annual Bengali cultural extravaganza, Oikyotaan 24 pulsates with vibrant energy. A celebration of our rich heritage, a kaleidoscope of music, dance, art, and literature that unfolds against the backdrop of magic of spring.
                   </div>
