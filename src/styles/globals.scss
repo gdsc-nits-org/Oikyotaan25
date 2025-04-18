@@ -1,9 +1,16 @@
 @import "tailwindcss";
+@import "./animations";
 
 
 @font-face {
 	font-family: "Aprillia";
 	src: url("/assets/fonts/Aprillia Script_TEST.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Puritan";
+	src: url("/assets/fonts/Puritan-Regular.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -19,6 +26,10 @@
 		--breakpoint-ipad: 1000px;
 }
 
+:root {
+	--font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 @keyframes moveLeft {
     0% {
         transform: rotateZ(0deg);
