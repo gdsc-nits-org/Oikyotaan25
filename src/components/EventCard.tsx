@@ -1,6 +1,6 @@
 // import { EventData } from "../constants/EventsData";
-import type { EventList } from "constants/EventsData";
-import { EventPhotos } from "public/EventsPhotos/EventsPhotos";
+import type { EventList } from "public/assets/data/EventsData";
+import { EventPhotos } from "public/assets/EventsPhotos/EventsPhotos";
 
 type CardProps = {
   data: EventList;

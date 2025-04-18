@@ -11,8 +11,8 @@ import type { Swiper as SwiperType } from "swiper";
 import { useEffect } from "react";
 
 //Constants
-import { EventData } from "constants/EventsData";
-import { EventPhotos } from "public/EventsPhotos/EventsPhotos";
+import { EventData } from "public/assets/data/EventsData";
+import { EventPhotos } from "public/assets/EventsPhotos/EventsPhotos";
 
 //Sass Styles
 import "../../styles/events.scss";
