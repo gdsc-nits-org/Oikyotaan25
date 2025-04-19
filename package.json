@@ -21,9 +21,9 @@
 	"dependencies": {
 		"@t3-oss/env-nextjs": "^0.12.0",
 		"framer-motion": "^12.6.5",
-		"next": "^15.2.4",
-		"react": "^19.0.0",
-		"react-dom": "^19.0.0",
+		"next": "^15.3.1",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
 		"react-icons": "^5.5.0",
 		"react-responsive": "^10.0.1",
 		"sass": "^1.86.0",
@@ -34,15 +34,15 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"@tailwindcss/postcss": "^4.0.15",
-		"@types/node": "^20.14.10",
-		"@types/react": "^19.0.0",
-		"@types/react-dom": "^19.0.0",
+		"@types/node": "^22.14.1",
+		"@types/react": "^19.1.2",
+		"@types/react-dom": "^19.1.2",
 		"biome": "^0.3.3",
 		"husky": "^9.1.7",
 		"lint-staged": "^15.5.1",
 		"postcss": "^8.5.3",
 		"tailwindcss": "^4.0.15",
-		"typescript": "^5.8.2"
+		"typescript": "^5.8.3"
 	},
 	"ct3aMetadata": {
 		"initVersion": "7.39.2"

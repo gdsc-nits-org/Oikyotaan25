@@ -5,6 +5,7 @@ import Footer from "~/components/footer/footer";
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import { Puritan } from "next/font/google";
+import Loader from "./loader";
 
 export const metadata: Metadata = {
 	title: "Oikyotaan 2025",
@@ -46,10 +47,12 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={`${geist.variable} ${puritan.variable}`}>
 			<body>
-				<NavbarDesktop />
-				<NavbarMobile />
-				{children}
-				<Footer />
+				<Loader>
+					<NavbarDesktop />
+					<NavbarMobile />
+					{children}
+					<Footer />
+				</Loader>
 			</body>
 		</html>
 	);

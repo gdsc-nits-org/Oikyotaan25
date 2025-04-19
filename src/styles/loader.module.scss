@@ -1,0 +1,73 @@
+
+.loaderBase {
+  transform: translateY(-100%);
+}
+
+@keyframes animatePageSlideUp {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(0); }
+}
+
+@keyframes animatePageSlideDown {
+  from { transform: translateY(0); }
+  to { transform: translateY(-100%); }
+}
+
+.animatePageSlideUp {
+  animation: animatePageSlideUp 1.5s ease-out forwards;
+}
+
+.animatePageSlideDown {
+  animation: animatePageSlideDown 1s ease-in forwards;
+}
+
+  
+  @keyframes textFadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes butterflyFlutter {
+    0% { transform: rotate(0deg) scale(1); }
+    25% { transform: rotate(-5deg) scale(1.1); }
+    50% { transform: rotate(5deg) scale(0.9); }
+    75% { transform: rotate(-3deg) scale(1.05); }
+    100% { transform: rotate(0deg) scale(1); }
+  }
+  
+  // Loader container styles
+  .loaderContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transform: translateY(100%); 
+  }
+  
+  // Animation classes
+  // .animatePageSlideUp {
+  //   animation: pageSlideUp 1.5s ease-in-out forwards;
+  // }
+  
+
+  .animateTextFadeIn {
+    animation: textFadeIn 1s ease-out;
+  }
+  
+  .delay100 {
+    animation-delay: 100ms;
+  }
+  
+  .butterflyContainer {
+    font-size: 3rem;
+    
+    &:hover {
+      animation: butterflyFlutter 0.3s ease-in-out;
+    }
+  }
