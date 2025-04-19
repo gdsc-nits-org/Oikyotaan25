@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import artists from "public/assets/data/artists";
 import PopupModal from './popupModel';
 
+
 type ArtistType = {
   id: number;
   imageSrc: string;
@@ -70,37 +71,37 @@ export default function Artist() {
                 <div className="flex w-full flex-row items-center justify-center">
                   <img
                     src="/assets/artist/designRight.png"
-                    className="relative right-[-25%] w-[60%] rotate-[30deg] object-contain transition-transform duration-900 group-hover:rotate-[-1deg] max-w-full"
+                    className="relative right-[-25%] w-[60%] rotate-[30deg] pointer-events-none object-contain transition-transform duration-900 group-hover:rotate-[-1deg] max-w-full"
                     alt="Design Left"
                   />
                   <img
                     src="/assets/artist/sideFrame.png"
-                    className="relative left-[1%] z-10 w-[6%] object-contain max-w-full"
+                    className="relative left-[1%] z-10 w-[6%] object-contain pointer-events-none max-w-full"
                     alt="Side Frame"
                   />
                   <img
                     src={artist.imageSrc}
-                    className="z-10 w-[45%] object-contain max-w-full"
+                    className="z-10 w-[45%] object-contain pointer-events-none max-w-full"
                     alt="Artist"
                   />
                   <img
                     src="/assets/artist/sideFrame.png"
-                    className="z-10 w-[6%] object-contain max-w-full"
+                    className="z-10 w-[6%] object-contain pointer-events-none max-w-full"
                     alt="Side Frame"
                   />
                   <img
                     src="/assets/artist/designLeft.png"
-                    className="-rotate-[34deg] group-hover:-rotate-[-1deg] relative left-[-23%] w-[55%] object-contain transition-transform duration-900 max-w-full"
+                    className="-rotate-[34deg] group-hover:-rotate-[-1deg] pointer-events-none relative left-[-23%] w-[55%] object-contain transition-transform duration-900 max-w-full"
                     alt="Design Right"
                   />
                 </div>
 
                 <img
                   src="/assets/artist/nameBox.png"
-                  className="-mt-4 sm:-top-7  -top-1 relative left-1 w-[65%] object-contain sm:relative sm:left-3 max-w-full"
+                  className="-mt-4 sm:-top-7  -top-1 relative left-1 w-[65%] pointer-events-none object-contain sm:relative sm:left-3 max-w-full"
                   alt="Name Box"
                 />
-                <h1 className="sm:-top-29 -top-14 relative left-1 mt-2 text-center font-bold text-3xl text-lg sm:relative sm:left-3 sm:text-4xl">
+                <h1 className="sm:-top-29 -top-14 font-aprillia relative left-1 mt-2 text-center font-bold text-3xl text-lg sm:relative sm:left-3 sm:text-4xl">
                   <span className="text-[#7D2E2E]">{artist.name}</span>
                 </h1>
               </button>
@@ -117,7 +118,7 @@ export default function Artist() {
                 <div className="flex w-full flex-row items-center justify-center">
                   <img
                     src="/assets/Artist/designRight.png"
-                    className="-right-[10%] relative w-[35%] rotate-[30deg] object-contain transition-transform duration-900 group-hover:rotate-[-1deg] sm:right-[-25%] sm:w-[60%] md:w-[50%] max-w-full"
+                    className="-right-[10%] relative w-[35%] rotate-[30deg] object-contain transition-transform duration-900 group-hover:rotate-[-1deg] sm:right-[-21%] sm:w-[60%] md:w-[50%] max-w-full"
                     alt="Design Right"
                   />
                   <img
@@ -137,7 +138,7 @@ export default function Artist() {
                   />
                   <img
                     src="/assets/Artist/designLeft.png"
-                    className="-rotate-[34deg] -left-[12%] relative w-[35%] object-contain transition-transform duration-900 group-hover:rotate-[-1deg] sm:left-[-23%] sm:w-[55%] md:w-[50%] max-w-full"
+                    className="-rotate-[34deg] -left-[12%] relative w-[35%] object-contain transition-transform duration-900 group-hover:rotate-[-1deg] sm:left-[-21%] sm:w-[55%] md:w-[50%] max-w-full"
                     alt="Design Left"
                   />
                 </div>
@@ -147,18 +148,18 @@ export default function Artist() {
                   className="-mt-4 sm:-top-9 -top-3 relative w-[35%] object-contain sm:w-[65%] md:w-[60%] max-w-full"
                   alt="Name Box"
                 />
-                <h1 className="sm:-top-32 -top-13  relative left-0 mt-2 text-center font-bold text-sm sm:text-4xl md:text-3xl">
+                <h1 className="sm:-top-32 -top-13 font-aprillia relative left-0 mt-2 text-center font-bold text-sm sm:text-5l md:text-4xl">
                   <span className="text-[#7D2E2E]">{selectedArtist.name}</span>
                 </h1>
               </div>
 
               {/* Text Container */}
               <div className="flex w-full flex-col items-center justify-center px-4 py-6 sm:mx-5 sm:w-[60%] sm:py-0 md:w-[55%]">
-                <h1 className="hidden font-Oswald font-bold text-[#7D2E2E] text-lg italic sm:block sm:text-xl md:text-2xl">
+                <h1 className="hidden font-aprillia  font-bold text-[#7D2E2E] text-lg italic sm:block sm:text-5xl md:text-4xl">
                   {selectedArtist.name}
                 </h1>
 
-                <p className="absolute top-[35%]  px-3 text-justify font-serif text-black text-sm sm:static sm:top-auto sm:mt-6 sm:text-md md:text-base">
+                <p className={`absolute top-[35%] font-puritan px-3 text-justify text-black text-sm sm:static sm:top-auto sm:mt-6 sm:text-md md:text-base`}>
                   {selectedArtist.description}
                 </p>
               </div>
