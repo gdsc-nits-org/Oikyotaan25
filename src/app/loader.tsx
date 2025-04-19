@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from 'react';
-import styles from './loader.module.scss';
+import styles from "../styles/loader.module.scss";
 
 const Loader = ({ children }: { children: React.ReactNode }) => {
   const [isMounted, setIsMounted] = useState(false);
@@ -39,16 +39,14 @@ const Loader = ({ children }: { children: React.ReactNode }) => {
         `}
       >
         <div className="relative h-full w-full bg-[#7D2E2E] bg-[url(https://res.cloudinary.com/dffke2hbp/image/upload/v1744984951/nexo7atbwcy6aaf2ixxw.svg)] bg-contain bg-no-repeat bg-cover overflow-hidden">
-
-
           <div className="absolute right-[2rem] top-[18rem] flex -translate-y-1/2 items-center gap-4 lg:left-140">
             <div className="ml-[-22rem] flex flex-col-reverse items-center justify-center sm:ml-[-30rem] md:ml-[-35rem] lg:ml-[-13rem] xl:ml-[-8rem] 2xl:ml-[-3rem]">
               <img
                 src="https://res.cloudinary.com/dffke2hbp/image/upload/v1744984156/d8kwj1po4rzxqk0vgl8i.png"
                 alt="Cultural Motif"
                 className="mt-[-4.6rem] h-[160px] w-[250px]
-                  sm:mt-[-6rem] sm:h-[200px] sm:w-[340px] 
-                  md:mt-[-6rem] md:h-[200px] md:w-[340px] 
+                  sm:mt-[-6rem] sm:h-[200px] sm:w-[340px] ml-[1.5rem]
+                  md:mt-[-6rem] md:h-[200px] md:w-[340px] md:ml-0
                   lg:mt-[-7.5rem] lg:h-[250px] lg:w-[400px]
                   xl:mt-[-9rem] xl:h-[300px] xl:w-[500px]
                   2xl:mt-[-10rem] 2xl:h-[340px] 2xl:w-[565px]"
