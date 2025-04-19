@@ -63,6 +63,14 @@
 
 }
 	
+@keyframes pageSlideUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+  }
+  
+  .animate-pageSlideUp {
+    animation: pageSlideUp 1.5s ease-out;
+  }
 
 body {
 	
