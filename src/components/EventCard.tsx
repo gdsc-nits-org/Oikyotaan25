@@ -54,16 +54,16 @@ export default function Card({ data }: CardProps) {
         <div className="flex h-auto w-[100%] flex-col md:h-[500px] md:w-[50%] md:justify-center md:py-4">
           {/* Content */}
           <h1 className="mt-2 mb-6 px-2 py-2 text-center font-bold mobile:text-4xl md:text-4xl lg:text-6xl text-[rgba(243,202,78,1)]" style={{fontFamily: 'var(--font-aprillia)'}}>
-            {data.title}
+            {data.name}
           </h1>
           <p className="z-10 text-justify text-[14px] text-white md:text-[16px] lg:text-[18px]">
-            {data.desc}
+            {data.text}
           </p>
         </div>
         <div className="my-2 w-[100%] md:h-[100%] md:w-[45%] border-4 border-[rgba(125,46,46,1)]">
           <img
             className="w-full object-cover md:min-h-[330px] lg:h-[500px] "
-            src={EventPhotos.cardImg}
+            src={data.src}
             alt=""
           />
         </div>

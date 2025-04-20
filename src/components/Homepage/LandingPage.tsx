@@ -58,7 +58,7 @@ export default function LandingPage() {
                 </div>
             </div>
             <div className="brochure relative w-full flex flex-col justify-center items-center my-10">
-                <Link href="https://gdscnits.in" target="_blank" className="box px-4 md:w-[25vw] h-[12vh] text-yellow-500 border-4 flex justify-center items-center bg-[#7D2E2E] font-aprillia text-5xl md:text-6xl scale-[.70] lg:scale-[.90]">BROCHURE</Link>
+                <Link href="https://drive.google.com/file/d/15UgBBL6auafc87OkzCG1wc9_OXXT475l/view?usp=sharing" target="_blank" className="box px-4 md:w-[25vw] h-[12vh] text-yellow-500 border-4 flex justify-center items-center bg-[#7D2E2E] font-aprillia text-5xl md:text-6xl scale-[.70] lg:scale-[.90]">BROCHURE</Link>
                 <div className="clouds-about relative  md:hidden inline-flex h-[20vh] w-full ">
                     <Cloud1 className="absolute top-10 w-[175px]  right-10 z-[2]" />
                     <Cloud1dark1 className="absolute top-20 w-[175px] -right-20  z-0" />

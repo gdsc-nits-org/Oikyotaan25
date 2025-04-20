@@ -46,7 +46,7 @@ const Loader = ({ children }: { children: React.ReactNode }) => {
                 alt="Cultural Motif"
                 className="mt-[-4.6rem] h-[160px] w-[250px]
                   sm:mt-[-6rem] sm:h-[200px] sm:w-[340px] ml-[1.5rem]
-                  md:mt-[-6rem] md:h-[200px] md:w-[340px] md:ml-0
+                  md:mt-[-6rem] md:h-[200px] md:w-[340px] sm:ml-0
                   lg:mt-[-7.5rem] lg:h-[250px] lg:w-[400px]
                   xl:mt-[-9rem] xl:h-[300px] xl:w-[500px]
                   2xl:mt-[-10rem] 2xl:h-[340px] 2xl:w-[565px]"
