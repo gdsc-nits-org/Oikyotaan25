@@ -34,7 +34,7 @@ export default function LandingPage() {
                         delay: 0.2,
                     }}
                 ></motion.img>
-                <CurtainReveal className=" md:w-[53%] md:mt-10 mb-4 relative object-contain flex flex-col md:ml-40 " title="About Nits" />
+                <CurtainReveal className=" md:w-[53%] md:mt-10 mb-4 relative object-contain flex flex-col md:ml-40 lg:-translate-x-12 " title="About Nits" />
                 {/* <img src="/images/rakshabhandan.png" alt="center-decoration" className=" md:w-[43%] md:mt-0 object-contain md:ml-40"/> */}
                 <img src="/assets/landing/RightKamal.png" alt="right-decoration" className=" md:w-[20%] w-[30%] absolute z-0 top-0 right-0 " />
             </div>
@@ -42,7 +42,7 @@ export default function LandingPage() {
             <div className="md:inline-flex hidden flex  items-center w-[100%] justify-center itens-center">
                 <img src="/assets/landing/aartilady.png" alt="aarti" className="w-[20vw]  object-contain" />
                 <div className="text-about-oikyotaan h-full w-[45%] text-[#7D2E2E] text-justify  font-puritan text-2xl lg:pl-5 lg:pr-5">
-                    As spring gently nudges away winters slumber, bringing with it vibrant colours, a gentle warmth creeps in, as if welcoming the NoboBorsho. The air hums with anticipation, mirroring the excitement in our hearts. The gentle breeze sways the leaves welcoming the new year with better beginnings and fresh hopes. And amidst this effervescent atmosphere, our annual Bengali cultural extravaganza, Oikyotaan 24 pulsates with vibrant energy. A celebration of our rich heritage, a kaleidoscope of music, dance, art, and literature that unfolds against the backdrop of magic of spring.
+                    A bright future requires a bright start. NITS abides by this mantra. The institute believes in equipping students with the knowledge and skills in their chosen streams, inculcate values, identify hidden talents, and provide opportunities for students to realize their full potential. It facilitates the requisite support and encouragement via various cultural and academic activities to shape the body and soul. It has transformed into a sought out centre of learning.
                 </div>
                 <img src="/assets/landing/aartilady.png" alt="aarti" className="w-[20vw]  object-contain scale-x-[-1]" />
             </div>
@@ -54,11 +54,11 @@ export default function LandingPage() {
                 </div>
 
                 <div className="text-about-oikyotaan px-10 h-full w-full text-[#7D2E2E] text-justify font-puritan text-xl">
-                    As spring gently nudges away winters slumber, bringing with it vibrant colours, a gentle warmth creeps in, as if welcoming the NoboBorsho. The air hums with anticipation, mirroring the excitement in our hearts. The gentle breeze sways the leaves welcoming the new year with better beginnings and fresh hopes. And amidst this effervescent atmosphere, our annual Bengali cultural extravaganza, Oikyotaan 24 pulsates with vibrant energy. A celebration of our rich heritage, a kaleidoscope of music, dance, art, and literature that unfolds against the backdrop of magic of spring.
+                    A bright future requires a bright start. NITS abides by this mantra. The institute believes in equipping students with the knowledge and skills in their chosen streams, inculcate values, identify hidden talents, and provide opportunities for students to realize their full potential. It facilitates the requisite support and encouragement via various cultural and academic activities to shape the body and soul. It has transformed into a sought out centre of learning.
                 </div>
             </div>
             <div className="brochure relative w-full flex flex-col justify-center items-center my-10">
-                <Link href="https://gdscnits.in" target="_blank" className="box px-4 md:w-[25vw] h-[12vh] text-yellow-500 border-4 flex justify-center items-center bg-[#7D2E2E] font-aprillia text-5xl md:text-6xl scale-[.70] lg:scale-[.90]">BROCHURE</Link>
+                <Link href="https://drive.google.com/file/d/15UgBBL6auafc87OkzCG1wc9_OXXT475l/view?usp=sharing" target="_blank" className="box px-4 md:w-[25vw] h-[12vh] text-yellow-500 border-4 flex justify-center items-center bg-[#7D2E2E] font-aprillia text-5xl md:text-6xl scale-[.70] lg:scale-[.90]">BROCHURE</Link>
                 <div className="clouds-about relative  md:hidden inline-flex h-[20vh] w-full ">
                     <Cloud1 className="absolute top-10 w-[175px]  right-10 z-[2]" />
                     <Cloud1dark1 className="absolute top-20 w-[175px] -right-20  z-0" />
@@ -79,7 +79,26 @@ export default function LandingPage() {
                 {/* <RotatingThing className="w-[45vw] -mt-40 relative"/> */}
                 <img src="assets/landing/rotatingThing.gif" alt="rotating-thing" className=" md:w-[45vw]  md:h-auto w-[80vw]  object-contain  relative" />
                 <div className="aboutnits  h-full w-full px-10 text-[#7D2E2E] text-justify font-puritan text-xl lg:text-2xl">
-                    As spring gently nudges away winters slumber, bringing with it vibrant colours, a gentle warmth creeps in, as if welcoming the NoboBorsho. The air hums with anticipation, mirroring the excitement in our hearts. The gentle breeze sways the leaves welcoming the new year with better beginnings and fresh hopes. And amidst this effervescent atmosphere, our annual Bengali cultural extravaganza, Oikyotaan 24 pulsates with vibrant energy. A celebration of our rich heritage, a kaleidoscope of music, dance, art, and literature that unfolds against the backdrop of magic of spring.
+                    The Bengali New Year, or Pohela Boishakh, symbolises rejuvenation and
+                    renewed life. It is that time of the year when we all get to hear the sweet
+                    call of the cuckoo, feel the soothing sensation of the southern breeze,
+                    mango flowers start appearing and the heart of Bengal seems to attain a new
+                    vigour, brought about by the blessings of Spring.&nbsp;Oikyotaan
+                    &quot;musical harmony&quot; is an annual event of NIT Silchar which is
+                    dedicated to the frolic and cultural celebration of the Bengali New Year.
+                    Since it is the harvest season, people pray to Lord Ganesha and Goddess
+                    Laxmi for God&apos;s blessings on their lives and households. Many prayers
+                    are chanted on this day because people believe it will bring them peace,
+                    good health, long lives, and then stable lives.
+                    <br></br>
+                    <br></br>
+                    Oikyotaan is a cultural festival that celebrates the diversity and
+                    creativity of our Bengali community. It will feature music, dance, art and
+                    more from talented performers and artists. Oikyotaan is a common podium of
+                    celebration for all those whose hearts ardently love the
+                    &quot;Bangaliana&quot; spirit - so do join us on the 26th of April, this year
+                    as we welcome the new year with pomp, joy, music and dance!
+                    <br />
                 </div>
             </section>
             <section className="sponsor-div  flex h-[50vh] justify-center items-center relative">

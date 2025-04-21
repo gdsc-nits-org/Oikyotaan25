@@ -196,7 +196,7 @@ export default function EventPage() {
               className="custom-swiper w-full"
             >
               {EventData.map((event) => (
-                <SwiperSlide key={event.title}>
+                <SwiperSlide key={event.id}>
                   <Card data={event} />
                 </SwiperSlide>
               ))}

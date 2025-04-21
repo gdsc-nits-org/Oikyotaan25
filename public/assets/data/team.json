@@ -1,67 +1,203 @@
 [
-    {
-      "name": "Rohit Sharma",
-      "designation": "UI/Ux Co Head",
-      "image": "/assets/team/person.png",
-      "instagram": "https://instagram.com/rahul",
-      "facebook": "https://facebook.com/rahul",
-      "linkedin": "https://linkedin.com/in/rahul"
-    },
-    {
-      "name": "Kunal Sharma",
-      "designation": "UI/Ux Co Head",
-      "image": "/assets/team/person.png",
-      "instagram": "https://instagram.com/rahul",
-      "facebook": "https://facebook.com/rahul",
-      "linkedin": "https://linkedin.com/in/rahul"
-    },
-    {
-      "name": "Bhavya Sharma",
-      "designation": "UI/Ux Co Head",
-      "image": "/assets/team/person.png",
-      "instagram": "https://instagram.com/rahul",
-      "facebook": "https://facebook.com/rahul",
-      "linkedin": "https://linkedin.com/in/rahul"
-    },
-    {
-      "name": "Pulkit Sharma",
-      "designation": "UI/Ux Co Head",
-      "image": "/assets/team/person.png",
-      "instagram": "https://instagram.com/rahul",
-      "facebook": "https://facebook.com/rahul",
-      "linkedin": "https://linkedin.com/in/rahul"
-    },
-    {
-        "name": "Rohit Sharma",
-        "designation": "UI/Ux Co Head",
-        "image": "/assets/team/person.png",
-        "instagram": "https://instagram.com/rahul",
-        "facebook": "https://facebook.com/rahul",
-        "linkedin": "https://linkedin.com/in/rahul"
+  {
+    "designation": "Tech",
+    "members":[
+      {
+        "name": "RIshi Raj Saha",
+        "designation": "Web Head",
+        "git": "https://github.com/rishinhk004",
+        "fb": "https://www.facebook.com/rishiraj.saha.353",
+        "insta": "https://www.instagram.com/rishi_raj_saha/",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745219644/WhatsApp_Image_2025-01-28_at_16.29.22_a6390c1a_mpbfhb.webp"
       },
       {
-        "name": "Kunal Sharma",
-        "designation": "UI/Ux Co Head",
-        "image": "/assets/team/person.png",
-        "instagram": "https://instagram.com/rahul",
-        "facebook": "https://facebook.com/rahul",
-        "linkedin": "https://linkedin.com/in/rahul"
+        "name": "Sahin Alam",
+        "designation": "Web Head",
+        "git": "https://github.com/ruler45",
+        "fb": "https://www.facebook.com/share/16MbAA49CT/",
+        "insta": "https://www.instagram.com/sahinisboss?igsh=MTNodGIxaWFudnllNw==",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213810/Json/ca41shrg3lkbuuhyd2ba.webp"
       },
       {
-        "name": "Bhavya Sharma",
-        "designation": "UI/Ux Co Head",
-        "image": "/assets/team/person.png",
-        "instagram": "https://instagram.com/rahul",
-        "facebook": "https://facebook.com/rahul",
-        "linkedin": "https://linkedin.com/in/rahul"
+        "name": "Samarjit Roy",
+        "designation": "UI/UX Head",
+        "git": "https://github.com/Samarjit25",
+        "insta": "https://www.instagram.com/_samarjitroy_/",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213789/Json/u9vzkkltncixlgwqgbb7.webp"
       },
       {
-        "name": "Pulkit Sharma",
-        "designation": "UI/Ux Co Head",
-        "image": "/assets/team/person.png",
-        "instagram": "https://instagram.com/rahul",
-        "facebook": "https://facebook.com/rahul",
-        "linkedin": "https://linkedin.com/in/rahul"
+        "name": "Siddharth Ghosh",
+        "designation": "UI/UX Head",
+        "git": "https://github.com/Z-Maniac-Sidd",
+        "fb": "https://www.facebook.com/profile.php?id=100070117330528",
+        "insta": "https://www.instagram.com/z_maniac_sidd/",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213683/Json/zqbzjnwc4xptztqsntye.webp"
+      },
+      {
+        "name": "Sibajit Mazumder",
+        "designation": "Web Developer",
+        "git": "https://github.com/kaneki-desu",
+        "fb": "https://www.linkedin.com/in/sibajit-mazumder-b076b5274/",
+        "insta": "https://www.instagram.com/siibajit_maz.808?igsh=MW5zY21lMm00emkwNg==",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213769/Json/niorrqfptbaahlquos2i.webp"
+      },
+      {
+        "name": "Subrata Lodh",
+        "designation": "Web Developer",
+        "git": "https://github.com/Subrata-20",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213806/Json/tiffapipxcy6chjuutyj.webp"
+      },
+     
+        {
+          "name": "Subhajyoti Dey",
+          "designation": "Web Developer",
+          "git": "github.com/SubhaNITS150",
+          "fb": "https://www.facebook.com/share/1H8tiHEDS9/",
+          "insta": "https://www.instagram.com/subhajyoti_dey_/profilecard/?igsh=MW8yZ2RxNDA1a2lk",
+          "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213667/Json/byiza4jwbjwodxlfprcg.webp"
+        },
+        {
+          "name": "Dhananjoy Das",
+          "designation": "Web Developer",
+          "git": "https://github.com/dhananjoydas733",
+          "fb": "https://www.facebook.com/share/19WC3bneJM/?mibextid=wwXIfr",
+          "insta": "https://www.instagram.com/iamdhananjoy_?igsh=OWdsc2RqeXpqeWls&utm_source=qr",
+          "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213798/Json/cimnlgbyqhxpu6bw6gug.webp"
+        },
+        {
+          "name": "Kaushik Bhowmick",
+          "designation": "Web Developer",
+          "git": "https://github.com/kaushik9859",
+          "fb": "https://www.facebook.com/share/1AK37Qpczo/",
+          "insta": "https://www.instagram.com/kaus.hik6770/",
+          "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213679/Json/lv8qww1yzciulwdh0mpf.webp"
+        },
+        {
+          "name": "Subhadeep Deb",
+          "designation": "Web Developer",
+          "git": "https://github.com/coderSubhadeepdeb",
+          "fb": "https://www.facebook.com/share/1Ce3rDeFNd/",
+          "insta": "https://www.instagram.com/_subhadeep.___?igsh=NjFiaWIzbjc0cHNu",
+          "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213708/Json/jzhjnueii2lgnn9x4heg.webp"
+        },
+        {
+          "name": "Piyush Chatterjee",
+          "designation": "UI/UX Team",
+          "git": "https://github.com/Piyush-Chatterjee",
+          "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213713/Json/rbgzo8msvc9yj3c9elsg.webp"
+        },
+        {
+          "name": "Evangeline Hasda",
+          "designation": "UI/UX Team",
+          "git": "github.com/EvangelineHasda",
+          "fb": "https://www.facebook.com/profile.php/?id=100095026613104",
+          "insta": "https://www.instagram.com/evan_juline_hasda/?__pwa=1",
+          "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213692/Json/crz2nvn2vlhmqjjgmwff.webp"
+        },
+        {
+          "name": "Irene Therese Joseph",
+          "designation": "UI/UX Team",
+          "git": "https://github.com/ireneyk",
+          "fb": "https://www.facebook.com/share/1EuWdbPdm5/",
+          "insta": "-",
+          "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213703/Json/cxva7q15uoiu0dy7t4bw.webp"
+        },
+        {
+          "name": "Shouvik Paul",
+          "designation": "UI/UX Team",
+          "fb": "https://www.facebook.com/profile.php?id=61550671079083",
+          "insta": "https://www.instagram.com/__s.h.o.u.v.i.k__/",
+          "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213675/Json/zbldth6mdownicgutknk.webp"
+        }
+    ]
+  },
+  {
+    "designation": "Core",
+    "members":[
+      {
+        "name": "Susmit Gupta",
+        "designation": "Convener",
+        "fb": "https://www.facebook.com/share/p/1FpgWzXYVN/?mibextid=wwXIfr",
+        "insta": "https://www.instagram.com/p/DHp1WfevyYNIU3NX3v1SJ3aR7_PS2KrwtAAtEQ0/?igsh=NGN6NHlpa241ZmVn",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213819/Json/myhrzz0qfx31b5bpfpgt.webp"
+      },
+      {
+        "name": "Ayon Roy",
+        "designation": "Executive Head",
+        "fb": "https://www.facebook.com/ayonroy.2002",
+        "insta": "https://www.instagram.com/a__nroy?igsh=MXBidmtmN2ljanh4OA%3D%3D&utm_source=qr",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213688/Json/zkbvvapvgwk7rl6zxaik.webp"
+      },
+      {
+        "name": "Ranjini Chakrabarty",
+        "designation": "Executive Head",
+        "fb": "https://www.facebook.com/profile.php?id=100076257129117&mibextid=rS40aB7S9Ucbxw6v",
+        "insta": "https://www.instagram.com/tun.tuniii?igsh=MThlYW81OWpsYm1kaQ==",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213774/Json/ymjidl6sjihz4mpeu679.webp"
+      },
+      {
+        "name": "Soumyarup Deb",
+        "designation": "Executive Head",
+        "fb": "https://www.facebook.com/share/168VqSPsL9/",
+        "insta": "https://www.instagram.com/soumyarup__?igsh=eHA2OXJiZDR5d2Nr",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213736/Json/ofcrpulduvym0mygv9iv.webp"
+      },
+      {
+        "name": "Sudeshna Mozumder",
+        "designation": "Executive Head",
+        "fb": "https://www.facebook.com/share/169hvM4Dxn/",
+        "insta": "https://www.instagram.com/sudeshna_m__02?igsh=aXk3Y3F1cmRiaTRu",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213726/Json/z5c5aztsfpiabfcu0v8h.webp"
+      },
+      {
+        "name": "Pranjal Chakraborty",
+        "designation": "Event Management Head",
+        "fb": "https://www.facebook.com/profile.php?id=100073358617671",
+        "insta": "https://www.instagram.com/pranjal_p.c?igsh=MWR1ZTh5bm90cmMydg==",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213784/Json/chizk2gpovjdimipgofi.webp"
+      },
+      {
+        "name": "Arpita Podder",
+        "designation": "Cultural Head",
+        "fb": "https://www.facebook.com/share/1BSLiEHwC8/",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213760/Json/kdntisshv40motqudiis.webp"
+      },
+      {
+        "name": "Arpita Roy",
+        "designation": "Cultural Head",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213746/Json/pikrssc4tk2b7zwsxr8q.webp"
+      },
+      {
+        "name": "Shahriar Shakib",
+        "designation": "Decoration Head",
+        "fb": "https://www.facebook.com/share/1XwNcvY4y5/?mibextid=wwXIfr",
+        "insta": "https://www.instagram.com/shahriaar.shakib?igsh=MTI4OGx0cTFmMWQ4&utm_source=qr",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213742/Json/rnp5gqv9kngtu0nqn4ab.webp"
+      },
+      {
+        "name": "Arpita Karmakar",
+        "designation": "Decoration Head",
+        "git": "https://github.com/Arpita-Karmakar21",
+        "fb": "https://www.facebook.com/share/15DUyBihSb/",
+        "insta": "https://www.instagram.com/arpita.karmakar_/?hl=en",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213750/Json/jwqwzkwke3a12iq4dzx3.webp"
+      },
+      {
+        "name": "Priyajit Paul",
+        "designation": "Marketing Head",
+        "git": "https://github.com/priyajit27",
+        "fb": "https://www.facebook.com/priyajit.paul.75",
+        "insta": "https://www.instagram.com/_priyajit_paul27_/",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213802/Json/tfnv4t50qxjtk0ib34fw.webp"
+      },
+      {
+        "name": "MRINAL KANGSA BANIK",
+        "designation": "Hospitality Head",
+        "git": "https://github.com/Mrinalkbanik01",
+        "fb": "https://www.facebook.com/profile.php?id=100010417385639",
+        "insta": "https://www.instagram.com/mrinal.py/",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213731/Json/baea3tk3orqw9yx9tr55.webp"
       }
-  ]
-  
+    ]
+  }
+]

@@ -31,10 +31,10 @@ function NavbarDesktop() {
         <Link href="/team">Team</Link>
       </div>
 
-      {/* Right Floral Decoration */}
+
       <div className="absolute right-0 top-0 h-20 w-20 bg-[url(/right-floral.png)] bg-contain bg-no-repeat md:h-32 md:w-32" />
 
-      {/* Bottom Border Decoration */}
+
       <div className="absolute bottom-0 h-3 w-full bg-[url(/diya-pattern.svg)] bg-repeat-x md:h-4" />
 
       {/* Right Logo */}
