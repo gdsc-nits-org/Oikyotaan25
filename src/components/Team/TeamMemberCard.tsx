@@ -1,13 +1,13 @@
 'use client';
 import React from 'react'
-import { FaInstagram, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+import { FaInstagram, FaFacebookF, FaGithub } from 'react-icons/fa';
 type TeamMemberCardProps = {
     image?: string;
     name?: string;
     designation?: string;
     instagram?: string;
     facebook?: string;
-    linkedin?: string;
+    git?: string;
   };
   
   const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
@@ -16,7 +16,7 @@ type TeamMemberCardProps = {
     designation,
     instagram,
     facebook,
-    linkedin,
+    git,
   }) => {
     return (
     <div className=" group flex justify-center items-center lg:w-[300px] lg:h-[400px] laptop:w-[300px] laptop:h-[400px] tablet:w-[180px] tablet:h-[360px] md:w-[250px] md:h-[350px]  bg-[#fdf6e9] bg-[url('/assets/team/card-bg-before.png')] bg-cover bg-center mix-blend-multiply isolate hover:bg-[url('/assets/team/card-bg-after.png')] shadow-lg overflow-hidden relative transition-all duration-300 hover:shadow-2xl hover:scale-[1.02] cursor-pointer  mobile:w-[320px] mobile:h-[420px] mobile:my-3">
@@ -26,14 +26,14 @@ type TeamMemberCardProps = {
                 <img
                 src={image}
                 alt={name}
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-90 group-hover:rounded-full"
+                className="w-[18rem] h-[15rem] object-cover transition-transform duration-300 group-hover:scale-90 overflow-hidden group-hover:rounded-full"
                 />
             </div>
   
             {/* Name & Designation */}
             <div className="flex flex-col jitems-center laptop:py-3  tablet:pt-8 mobile:py-2 mobile:group-hover:py-3 text-center mixed-blend-normal ">
-                <h3 className="text-2xl text-[#FFFFFF] font-semibold">{name}</h3>
-                <p className="text-lg text-[#F3Ca4E]">{designation}</p>
+                <h3 className="text-[1.7rem] text-[#FFFFFF] font-semibold font-puritan">{name}</h3>
+                <p className="text-lg text-[#F3Ca4E] font-puritan">{designation}</p>
                 <div className="hidden group-hover:flex justify-center gap-4 mt-2">
                     {instagram && (
                         <a href={instagram} target="_blank" rel="noopener noreferrer">
@@ -45,9 +45,9 @@ type TeamMemberCardProps = {
                             <FaFacebookF className="text-white text-2xl hover:text-[#1877F2] transition" />
                         </a>
                     )}
-                    {linkedin && (
-                        <a href={linkedin} target="_blank" rel="noopener noreferrer">
-                            <FaLinkedinIn className="text-white text-2xl hover:text-[#0A66C2] transition" />
+                    {git && (
+                        <a href={git} target="_blank" rel="noopener noreferrer">
+                            <FaGithub className="text-white text-2xl hover:text-[#0A66C2] transition" />
                         </a>
                     )}
                 </div>

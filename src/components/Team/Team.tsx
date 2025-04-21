@@ -1,26 +1,9 @@
 'use client';
-import React, { useState } from 'react'
 import TeamMemberCard from '~/components/Team/TeamMemberCard'
 import teamMembers from "../../../public/assets/data/team.json"
 const Team = () => {
-
-    const [index, setIndex] = useState(0);
-    const [fade, setFade] = useState(true);
-
-    const handleChange = (dir: 'next' | 'prev') => {
-        setFade(false); // trigger fade-out
-        setTimeout(() => {
-            setIndex((prev) => {
-                if (dir === 'next') return (prev + 1) % teamMembers.length;
-                return (prev - 1 + teamMembers.length) % teamMembers.length;
-            });
-            setFade(true); // trigger fade-in
-        }, 300); // must match the duration of fade-out
-    };
-
-
-
-
+    const Tech = teamMembers.filter((member) => member.designation === "Tech");
+    const Core = teamMembers.filter((member) => member.designation === "Core");
     return (
         <>
             <div className="bg-[url('/assets/team/bg-team.png')] bg-[#E3C7A1] bg-fixed bg-cover bg-center min-h-screen flex flex-col  ">
@@ -53,7 +36,7 @@ const Team = () => {
                     </div>
                     <div className="flex items-end laptop:w-[20rem] tablet:w-[19rem] mobile:w-[10rem] laptop:h-[6rem] tablet:h-[5rem] mobile:h-[3rem] ">
                         <div className="w-full h-full bg-[url('/assets/team/title-box.png')] bg-cover bg-center flex self-end items-center justify-center">
-                            <h1 className="relative font-aprillia mobile:text-2xl tablet:text-5xl laptop:text-7xl  text-[#F3CA4E] text-center laptop:pt-7 tablet:pt-7 mobile:pt-4">Core</h1>
+                            <h1 className="relative font-aprillia mobile:text-2xl tablet:text-5xl laptop:text-6xl  text-[#F3CA4E] text-center laptop:pt-7 tablet:pt-7 mobile:pt-4">Tech</h1>
                         </div>
                     </div>
                     <div className="flex items-center justify-center">
@@ -63,42 +46,34 @@ const Team = () => {
 
                 {/*--------------- the lower bar -----------------*/}
 
-                <div className="flex  items-center justify-center overflow-hidden ">
-                    <img src="/assets/team/bar2.png" alt="a bar" className="laptop:h-[3.9rem] tablet:h-[3rem] mobile:h-[1.5rem] " />
-                </div>
-
                 {/*-------------- core team name cards(desktop view)-------------------- */}
                 <div className="hidden tablet:flex justify-center items-center laptop:gap-28 p-10 tablet:gap-4 flex-wrap ">
-                    {teamMembers.map((member, index) => (
+                    {Tech[0]?.members.map((member, index) => (
                         <TeamMemberCard
                             key={index}
-                            image={member.image}
+                            image={member.photo}
                             name={member.name}
                             designation={member.designation}
-                            instagram={member.instagram}
-                            facebook={member.facebook}
-                            linkedin={member.linkedin}
+                            instagram={member?.insta}
+                            facebook={member?.fb}
+                            git={member?.git}
                         />
                     ))}
                 </div>
                 {/*--------------core team members(mobile view)--------- */}
                 <div className="laptop:hidden tablet:hidden flex flex-col justify-center items-center overflow-hidden gap-4">
-                    {teamMembers[index] && (
+                    {Tech[0]?.members.map((member, index) => (
                         <TeamMemberCard
-                            image={teamMembers[index].image}
-                            name={teamMembers[index].name}
-                            designation={teamMembers[index].designation}
-                            instagram={teamMembers[index].instagram}
-                            facebook={teamMembers[index].facebook}
-                            linkedin={teamMembers[index].linkedin}
+                            key={index}
+                            image={member.photo}
+                            name={member.name}
+                            designation={member.designation}
+                            instagram={member?.insta}
+                            facebook={member?.fb}
+                            git={member?.git}
                         />
-                    )}
-                    <div className="flex flex-row items-center justify-center gap-15 w-full h-[7rem] ">
-                        <div className="w-[4rem] h-[6rem] bg-[url('/assets/team/prev.png')] bg-cover bg-center"
-                            onClick={() => handleChange('prev')}></div>
-                        <div className="w-[3.5rem] h-[6rem] bg-[url('/assets/team/next.png')] bg-cover bg-center"
-                            onClick={() => handleChange('next')}></div>
-                    </div>
+                    ))}
+
                 </div>
                 {/*----------------the rope 2 ----------------*/}
 
@@ -108,7 +83,7 @@ const Team = () => {
                     </div>
                     <div className="flex items-end laptop:w-[20rem] tablet:w-[19rem] mobile:w-[10rem] laptop:h-[6rem] tablet:h-[5rem] mobile:h-[3rem] ">
                         <div className="w-full h-full bg-[url('/assets/team/title-box.png')] bg-cover bg-center flex self-end items-center justify-center">
-                            <h1 className="relative font-aprillia mobile:text-2xl tablet:text-5xl laptop:text-7xl  text-[#F3CA4E] text-center laptop:pt-7 tablet:pt-7 mobile:pt-4">Tech</h1>
+                            <h1 className="relative font-aprillia mobile:text-2xl tablet:text-5xl laptop:text-7xl  text-[#F3CA4E] text-center laptop:pt-7 tablet:pt-7 mobile:pt-4">Core</h1>
                         </div>
                     </div>
                     <div className="flex items-center justify-center">
@@ -118,36 +93,31 @@ const Team = () => {
 
                 {/*-------------- tech team name cards(desktop view)-------------------- */}
                 <div className="hidden tablet:flex justify-center items-center laptop:gap-28 p-10 tablet:gap-4 flex-wrap ">
-                    {teamMembers.map((member, index) => (
+                    {Core[0]?.members.map((member, index) => (
                         <TeamMemberCard
                             key={index}
-                            image={member.image}
+                            image={member.photo}
                             name={member.name}
                             designation={member.designation}
-                            instagram={member.instagram}
-                            facebook={member.facebook}
-                            linkedin={member.linkedin}
+                            instagram={member?.insta}
+                            facebook={member?.fb}
+                            git={member?.git}
                         />
                     ))}
                 </div>
                 {/*--------------tech team members(mobile view)--------- */}
                 <div className="laptop:hidden tablet:hidden flex flex-col justify-center items-center overflow-hidden gap-4">
-                    {teamMembers[index] && (
+                    {Core[0]?.members.map((member, index) => (
                         <TeamMemberCard
-                            image={teamMembers[index].image}
-                            name={teamMembers[index].name}
-                            designation={teamMembers[index].designation}
-                            instagram={teamMembers[index].instagram}
-                            facebook={teamMembers[index].facebook}
-                            linkedin={teamMembers[index].linkedin}
+                            key={index}
+                            image={member.photo}
+                            name={member.name}
+                            designation={member.designation}
+                            instagram={member?.insta}
+                            facebook={member?.fb}
+                            git={member?.git}
                         />
-                    )}
-                    <div className="flex flex-row items-center justify-center gap-15 w-full h-[7rem] ">
-                        <div className="w-[4rem] h-[6rem] bg-[url('/assets/team/prev.png')] bg-cover bg-center"
-                            onClick={() => handleChange('prev')}></div>
-                        <div className="w-[3.5rem] h-[6rem] bg-[url('/assets/team/next.png')] bg-cover bg-center"
-                            onClick={() => handleChange('next')}></div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </>

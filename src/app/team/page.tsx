@@ -1,6 +1,6 @@
 'use client';
-import React from 'react'
-import Team from '~/components/Team/Team';
+import dynamic from "next/dynamic";
+const Team = dynamic(() => import("~/components/Team/Team"), { ssr: false });
 const page = () => {
   return (
     <div>
