@@ -9,7 +9,25 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function LandingPage() {
-    const sponsorsList = ["abd", "asf", "Rsdfg0", "aesgd", "rage", "cyberpunk"]
+    const sponsorsList = [
+        {
+            img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745384465/Oikyotaan25/1200px-Amul_official_logo.svg_y5xpta.png"
+        }, 
+        {
+            img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745384510/Oikyotaan25/ZtQ2xM8__400x400_oirzj0.jpg"
+        },
+        {
+            img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745384311/Oikyotaan25/Screenshot_2025-04-23_102552_mq4job.png",
+        },
+        {
+            img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745384311/Oikyotaan25/Screenshot_2025-04-23_102601_wbtyrm.png"
+        }, {
+            img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745384311/Oikyotaan25/Screenshot_2025-04-23_102609_vhanf4.png"
+        }, {
+            img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745384311/Oikyotaan25/Screenshot_2025-04-23_102624_shzisv.png"
+        }, {
+            img: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745384311/Oikyotaan25/Screenshot_2025-04-23_102615_vt9gcw.png"
+        }]
     return (
         <div className="w-full overflow-x-hidden  bg-[#E3C7A1]  relative h-full bg-[url('/assets/landing/bgImage.png')]  md:bg-cover bg-size-[100vh] landbg bg-center "
             style={{
@@ -107,7 +125,7 @@ export default function LandingPage() {
                         <Cloud1 className="absolute top-10 w-[50vw] md:w-auto left-5 z-[2]" />
                         <Cloud1dark2 className="absolute top-35 w-[50vw] md:w-auto -left-15 z-0" />
                     </div>
-                    <CurtainReveal title="Sponsors" className=" w-[43%] md:inline-flex md:flex-col relative hidden object-contain ml-10" />
+                    <CurtainReveal title="Previous Sponsors" className=" w-[43%] md:inline-flex md:flex-col relative hidden object-contain ml-10" />
                     {/* <img src="/images/rakshabhandan.png" alt="center-decoration" className=" w-[43%] md:inline-flex hidden object-contain ml-10"/> */}
                 </div>
                 <motion.div
@@ -126,12 +144,12 @@ export default function LandingPage() {
             </section>
             {/* mobile view */}
             <div className="rakhshabhandan w-full inline-flex justify-center md:hidden">
-                <CurtainReveal title="Sponsors" className=" w-[100vw] relative object-contain " />
+                <CurtainReveal title="Previous Sponsors" className=" w-[100vw] relative object-contain " />
                 {/* <img src="/images/rakshabhandan.png" alt="center-decoration" className="  object-contain "/> */}
             </div>
-            <section className="Sponsors-list w-full p-10 md:py-0 md:px-40 flex flex-wrap mx-auto gap-10 justify-center items-center mb-20">
+            <section className="Sponsors-list w-full py-5 md:py-0 md:px-40 flex flex-wrap mx-auto gap-16 justify-center items-center mb-20">
                 {sponsorsList.map((item, index) => (
-                    <div key={index} className="md:size-72 sm:size-56 size-32 relative bg-red-900"><SponsorItem className="md:size-72" /><img src="/assets/landing/amara.png" className="absolute md:size-52 sm:size-36 size-24 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 " /></div>
+                    <div key={index} className="md:size-72 sm:size-56 size-32 relative bg-red-900"><SponsorItem className="md:size-72" /><img src={item.img} className="absolute md:size-52 sm:size-36 size-24 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 " /></div>
                 ))}
             </section>
         </div>
