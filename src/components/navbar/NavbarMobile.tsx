@@ -7,7 +7,7 @@ function NavbarMobile() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed md:hidden top-0 left-0 w-full h-[90px] bg-[#7D2E2E] text-white z-[1000000000] font-custom-script">
+    <nav className="fixed md:hidden top-0 left-0 w-full h-[90px] bg-[#7D2E2E] text-white z-[200000000000000000] font-custom-script">
       {/* Left Logo */}
       <div className="absolute left-4 w-[50px] h-[32px] bg-[url(https://res.cloudinary.com/dffke2hbp/image/upload/v1744127526/m8fz3kfdgf3wabfx2ak7.png)] bg-contain bg-no-repeat" />
 
