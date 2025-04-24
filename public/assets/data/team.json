@@ -115,6 +115,22 @@
     "designation": "Core",
     "members":[
       {
+        "name": "Shashank Dahewar",
+        "designation": "General Secretary, Gymkhana",
+        "git": "https://github.com/sdahewar",
+        "fb": "https://www.facebook.com/share/19vjNM7zQp/?mibextid=wwXIfr",
+        "insta": "https://www.instagram.com/sdahewar?igsh=cHpzODVnend0N3R2&utm_source=qr",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745478861/Json/xzhjyhnjoglr33ojztea.webp"
+      },
+      {
+        "name": "Sourav Das",
+        "designation": "Chief Coordinator",
+        "git": "https://github.com/soouravdas01",
+        "fb": "https://www.facebook.com/share/198W8Cwk5D/",
+        "insta": "https://www.instagram.com/im.sourav.das?igsh=MWdsYnh3M280ZTRjNA==",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745478876/Json/ofny2dvl9bzrukk2m55r.webp"
+      },
+      {
         "name": "Susmit Gupta",
         "designation": "Convener",
         "fb": "https://www.facebook.com/share/p/1FpgWzXYVN/?mibextid=wwXIfr",
@@ -136,6 +152,12 @@
         "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213774/Json/ymjidl6sjihz4mpeu679.webp"
       },
       {
+        "name": "Shantanu Saha",
+        "designation": "Executive Head",
+        "insta": "https://www.instagram.com/shantanu_saha7?igsh=N3JlcWxhZTdoNmx4&utm_source=qr",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745478890/Json/nnmgoycf8f3j2jb1aqfu.webp"
+      },
+      {
         "name": "Soumyarup Deb",
         "designation": "Executive Head",
         "fb": "https://www.facebook.com/share/168VqSPsL9/",
@@ -155,6 +177,23 @@
         "fb": "https://www.facebook.com/profile.php?id=100073358617671",
         "insta": "https://www.instagram.com/pranjal_p.c?igsh=MWR1ZTh5bm90cmMydg==",
         "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213784/Json/chizk2gpovjdimipgofi.webp"
+      },
+      {
+        "name": "Ashmita Sutradhar",
+        "designation": "Event Management Head",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745478871/Json/ucx3ouhnbxnlav4jbp0z.webp"
+      },
+      {
+        "name": "Priscila Das",
+        "designation": "Event Management head",
+        "fb": "https://www.facebook.com/share/18th5AzAsY/",
+        "insta": "https://www.instagram.com/_prischuuuuuu_?igsh=Zmo3aHB5N3R2em5u",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745478917/Json/vshvewpvafpuyyowd26t.webp"
+      },
+      {
+        "name": "Rimlee Ghosh",
+        "designation": "Design Head",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745478910/Json/rrzokfeu1oonean2szjs.webp"
       },
       {
         "name": "Arpita Podder",
@@ -197,6 +236,13 @@
         "fb": "https://www.facebook.com/profile.php?id=100010417385639",
         "insta": "https://www.instagram.com/mrinal.py/",
         "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745213731/Json/baea3tk3orqw9yx9tr55.webp"
+      },
+      {
+        "name": "Mominur Nibir",
+        "designation": "Hospitality Head",
+        "fb": "https://www.facebook.com/share/1FkE7gqqWw/",
+        "insta": "https://www.instagram.com/mominurnibir?igsh=MXA4cTNrNWtkN2x2Ng==",
+        "photo": "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745478896/Json/zos2zbwvqavddgijjsnr.webp"
       }
     ]
   }

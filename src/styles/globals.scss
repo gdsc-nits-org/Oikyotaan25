@@ -85,3 +85,12 @@ body {
   ::-webkit-scrollbar {
 	display: none;     
   }
+  @keyframes glow {
+    0%, 100% {
+      box-shadow: 0 0 10px #7D2E2E, 0 0 20px #7D2E2E, 0 0 30px #7D2E2E;
+    }
+    50% {
+      box-shadow: 0 0 20px #7D2E2E, 0 0 30px #7D2E2E, 0 0 40px #7D2E2E;
+    }
+  }
+  
