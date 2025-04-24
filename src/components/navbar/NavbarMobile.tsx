@@ -7,7 +7,7 @@ function NavbarMobile() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed md:hidden top-0 left-0 w-full h-[90px] bg-[#7D2E2E] text-white z-[200000000000000000] font-custom-script">
+    <nav className="fixed md:hidden top-0 left-0 w-full h-[90px] bg-[#7D2E2E] text-white z-[100000000000000] font-custom-script">
       {/* Left Logo */}
       <div className="absolute left-4 w-[50px] h-[32px] bg-[url(https://res.cloudinary.com/dffke2hbp/image/upload/v1744127526/m8fz3kfdgf3wabfx2ak7.png)] bg-contain bg-no-repeat" />
 
@@ -47,7 +47,7 @@ function NavbarMobile() {
 
       {/* Mobile Navigation Menu */}
       <div
-        className={`fixed top-[90px] right-0 w-[200px] h-[calc(100vh-100px)] bg-[#7D2E2E] transition-transform duration-300 ease-in-out
+        className={`fixed top-[90px] right-0 w-[200px] h-[100vh] bg-[#7D2E2E] transition-transform duration-300 ease-in-out
           ${isOpen ? 'translate-x-0' : 'translate-x-full'}
           bg-[url(https://res.cloudinary.com/dffke2hbp/image/upload/v1744481059/thkohufsewxw9qseepil.png)] bg-cover overflow-y-auto`}
       >

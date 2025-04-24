@@ -25,8 +25,8 @@ export default function HomePage() {
 			<audio ref={audioRef} src="/assets/audio/landing.mp3"  preload="metadata" loop />
 			<button
 				onClick={toggleAudio}
-				className="fixed top-[93vh] text-white right-4 lg:right-8  p-2  cursor-pointer transition z-[100000000000] bg-[#7D2E2E] rounded-full"
-				style={{    animation: 'glow 2s ease-in-out infinite'}}
+				className="fixed top-[90vh] lg:top-[93vh] text-white right-5 lg:right-8  p-2  cursor-pointer transition z-[100000000000] bg-[#7D2E2E] rounded-full"
+				style={{ animation: 'glow 1.5s ease-in-out infinite'}}
 			>
 				{isPlaying ? <FaPause size={25} /> : <FaPlay size={25} />}
 			</button>

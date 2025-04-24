@@ -6,7 +6,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import Link from "next/link";
 export default function Footer() {
     return (
-        <div className="relative w-full bg-[#E3C7A1] z-[10000000000000000]">
+        <div className="relative w-full bg-[#E3C7A1]">
             <div className="z-10 h-[30px] w-full sm:h-[48px]">
                 <img
                     src="/assets/footer/pattern1.png"
