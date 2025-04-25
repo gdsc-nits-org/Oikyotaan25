@@ -1,20 +1,15 @@
 const artists = [
   {
     id: 1,
-    imageSrc: "/assets/artist/artistImg.png",
-    name: "Rupankar Das",
-    description: `Rupankar Das is a master of traditional Bengali folk music It was their first date and she had been looking forward to it the entire week. She had her eyes on him for months, and it had taken a convoluted scheme with several friends to make it happen, but he'd finally taken the hint and asked her out. After all the time and effort she'd invested into it, she never thought that it would be anything but wonderful. It goes without saying that things didn't work out quite as she expected.
-Do you think you're living an ordinary life? You are so mistaken it's difficult to even explain. The mere fact that you exist makes you extraordinary. The odds of you existing are less than winning the lottery, but here you are. Are you going to let this extraordinary opportunity pass?
-"It's never good to give them details," Janice told her sister. "Always be a little vague and keep them guessing." Her sister listened intently and nodded in agreement. She didn't fully understand what her sister was saying but that didn't matter. She loved her so much that she would have agreed to whatever came out of her mouth.
-Sometimes there isn't a good answer. No matter how you try to rationalize the outcome, it doesn't make sense. And instead of an answer, you are simply left with a question. Why?`},
+    imageSrc: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745525161/Oikyotaan25/e5829224-159d-409c-921c-9fe7c258af20.png",
+    name: "TRAP",
+    description: "The Radical Array Project, commonly known as T.R.A.P., is an experimental and progressive rock band based in Kolkata, India. Formed in 2008, the band initially focused on psychedelic and progressive rock. Around 2011, they transitioned towards neo-classical and instrumental music, crafting a unique sound that blends electric violin, guitar, keyboards, and percussion.\n\n T.R.A.P. is renowned for their innovative use of unconventional instruments and materials, incorporating elements like junk objects to create distinctive rhythms and textures. Their discography includes the 2017 EP Obliviate, featuring tracks such as Pradosagama,Ilham and Middle Earth."
+  },
   {
     id: 2,
-    imageSrc: "/assets/artist/artistImg.png",
-    name: "Meenakshi Pal",
-    description:`Meenakshi Pal is a master of traditional Bengali folk music It was their first date and she had been looking forward to it the entire week. She had her eyes on him for months, and it had taken a convoluted scheme with several friends to make it happen, but he'd finally taken the hint and asked her out. After all the time and effort she'd invested into it, she never thought that it would be anything but wonderful. It goes without saying that things didn't work out quite as she expected.
-Do you think you're living an ordinary life? You are so mistaken it's difficult to even explain. The mere fact that you exist makes you extraordinary. The odds of you existing are less than winning the lottery, but here you are. Are you going to let this extraordinary opportunity pass?
-"It's never good to give them details," Janice told her sister. "Always be a little vague and keep them guessing." Her sister listened intently and nodded in agreement. She didn't fully understand what her sister was saying but that didn't matter. She loved her so much that she would have agreed to whatever came out of her mouth.
-Sometimes there isn't a good answer. No matter how you try to rationalize the outcome, it doesn't make sense. And instead of an answer, you are simply left with a question. Why?`
+    imageSrc: "https://res.cloudinary.com/dgnlmdkyq/image/upload/v1745525377/Oikyotaan25/9925f1aa-984c-46e7-bdaa-121db0b63b8d.png",
+    name: "Ashmita Kar",
+    description: "​Ashmita Kar is a talented Indian singer from New Town, Kolkata, who gained widespread recognition after jointly winning the 2022–23 season of Zee Bangla's Sa Re Ga Ma Pa. A classically trained vocalist, Ashmita has also studied Rabindra Sangeet and Nazrulgeeti. Her versatility and emotive performances earned her multiple golden guitars during the competition. Beyond her solo career, Ashmita leads her own band, InSync, and continues to perform live across India and internationally. She is also a vocal coach, sharing her expertise with aspiring singers."
   }
 ];
 
